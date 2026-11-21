@@ -1,7 +1,6 @@
+[Главная страница Webcontrol](https://github.io) | [Репозиторий GitHub](https://github.com) | [Канал в Telegram](https://t.mewebcontrol_app)
 
-[Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol) | [Канал в Telegram](https://t.me/webcontrol_app)
-
-**Архив по годам:** [2026](./2026.html) (50) • [2025](./2025.html) (40) • [2024](./2024.html) (99) • [2023](./2023.html) (49)
+**Архив по годам:** [2026](./2026.html) (40) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
 ---
 
@@ -15,7 +14,7 @@ https://www.forumhouse.ru/threads/417757/page-42
 
 Спасибо!
 
-[Открыть в Telegram](https://t.me/webcontrol_app/287)
+[Открыть в Telegram](https://t.mewebcontrol_app/287)
 
 ---
 
@@ -34,9 +33,9 @@ https://vaillant.com.ru/upload/%D0%9F%D1%80%D0%B5%D1%81%D1%81-%D1%80%D0%B5%D0%BB
 
 Комментировать не стану, но хочу выразить свое личное мнение, что делать в текущих условиях ставку на облачные сервисы, при наличии локально работающих альтернатив как минимум легкомысленно.
 
-<img src="./images/286_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
+<img src="./images/286_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.me/webcontrol_app/286)
+[Открыть в Telegram](https://t.mewebcontrol_app/286)
 
 ---
 
@@ -50,33 +49,9 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 
 Поскольку по умолчанию Webcontrol настроен на использование USB EBUS адаптера, непосредственно подключаемого к ПК с Webcontrol и определяемого как /dev/ttyUSB0, то при использовании USB EBUS адаптера необходимо обеспечить видимость данного адаптера внутри виртуальной машины и изменить имя устройства в параметрах EBUSD, если это требуется. Также можно использовать ЛЮБОЙ ДРУГОЙ EBUS адаптер совместимый с EBUSD версии 23.3, изменив тип используемого адаптера в настройках EBUSD через веб-интерфейс Webcontrol.
 
-<img src="./images/285_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
+<img src="./images/285_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.me/webcontrol_app/285)
-
----
-
-### 2026-11-14
-
-<img src="./images/284_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
-
-[Открыть в Telegram](https://t.me/webcontrol_app/284)
-
----
-
-### 2026-11-14
-
-<img src="./images/283_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
-
-[Открыть в Telegram](https://t.me/webcontrol_app/283)
-
----
-
-### 2026-11-14
-
-<img src="./images/282_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
-
-[Открыть в Telegram](https://t.me/webcontrol_app/282)
+[Открыть в Telegram](https://t.mewebcontrol_app/285)
 
 ---
 
@@ -90,9 +65,9 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 
 Как будет возможность - добавлю такую же опцию для 720-го.
 
-<img src="./images/281_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
+<img src="./images/281_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/282_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/283_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/284_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.me/webcontrol_app/281)
+[Открыть в Telegram](https://t.mewebcontrol_app/281)
 
 ---
 
@@ -118,7 +93,7 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 
 Присылайте идентификаторы для лицензионного ключа в личку (для тех, с кем общался напрямую), или в сообщения каналу.
 
-[Открыть в Telegram](https://t.me/webcontrol_app/280)
+[Открыть в Telegram](https://t.mewebcontrol_app/280)
 
 ---
 
@@ -134,7 +109,7 @@ Webcontrol – полностью готовое решения ориентир
 
 Как показала практика, можно использовать и Webcontrol и HA одновременно, [подключив их к одной системе отопления](https://t.me/webcontrol_app/268).
 
-[Открыть в Telegram](https://t.me/webcontrol_app/279)
+[Открыть в Telegram](https://t.mewebcontrol_app/279)
 
 ---
 
@@ -159,7 +134,7 @@ https://aliexpress.ru/item/1005011868010866.html
 
 Как лично мне кажется проект ebusd сдвигается в сторону micro-ebusd с привязкой к облаку и платной подпиской на micro-ebusd (см. https://token.ebusd.eu/).
 
-[Открыть в Telegram](https://t.me/webcontrol_app/278)
+[Открыть в Telegram](https://t.mewebcontrol_app/278)
 
 ---
 
@@ -172,23 +147,7 @@ https://aliexpress.ru/item/1005011868010866.html
 
 В рамках Webcontrol было бы здорово определять, что регулятор установлен в котел, чтобы выводить соответствующее сообщение вместо “0.0”, но такого регистра в сообществе EBUSD никто не искал (по крайней мере, я не нашел упоминаний). Можно это сделать по косвенным признакам, но это не 100% надежно, и я не сторонник таких “костылей”.
 
-[Открыть в Telegram](https://t.me/webcontrol_app/277)
-
----
-
-### 2026-08-09
-
-<img src="./images/276_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
-
-[Открыть в Telegram](https://t.me/webcontrol_app/276)
-
----
-
-### 2026-08-09
-
-<img src="./images/275_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
-
-[Открыть в Telegram](https://t.me/webcontrol_app/275)
+[Открыть в Telegram](https://t.mewebcontrol_app/277)
 
 ---
 
@@ -202,9 +161,9 @@ https://aliexpress.ru/item/1005011868010866.html
 
 Если регулятор установлен в котел, то его внутренний датчик температуры аппаратно отключается и данные температуры не используются для расчета температуры соответствующего контура, даже если регулятор привязан к одной из зон. Учитывается только уличная температура.
 
-<img src="./images/274_export.jpg" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">
+<img src="./images/274_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/275_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/276_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.me/webcontrol_app/274)
+[Открыть в Telegram](https://t.mewebcontrol_app/274)
 
 ---
 
@@ -216,10 +175,107 @@ https://aliexpress.ru/item/1005011868010866.html
 Это вызывало недоумение у некоторых пользователей, особенно если учесть, что о параметре “отключение по НТ” знают далеко не все. Чтобы приблизить отображение в программе, к тому что пользователи видят на экране регулятора было принято решение в веб интерфейсе программы для отопительных зон в случае если зона отключается убрать надпись “желаемая температура 0.0”. Обновление Webcontrol до версии 2026.07.20 вносит эти изменения.
 Что касается расчетной температуры контуров, то тут все очевидно: если контур не задействован, то расчетный алгоритм не работает, и расчетная температура контура отображается как “0.0”.
 
-[Открыть в Telegram](https://t.me/webcontrol_app/273)
+[Открыть в Telegram](https://t.mewebcontrol_app/273)
+
+---
+
+### 2026-07-20
+
+К вопросу об интерпретации значений температуры “0.0” в регуляторах Vaillant 700-й и 720-й серий.
+
+Наверняка, многие пользователи Webcontrol в процессе использования программы встречались со значениями “0.0” выводимых для желаемых температур отопительных зон и расчётных температур контуров. Но задумывались ли вы, почему и, главное, при каких состояниях регулятора эти температуры принимают такие значения. На мой взгляд, ответ прост – это специальные значения (возможно, значения по умолчанию), говорящие о том, что управляющий алгоритм определяющий целевую температуру не активен для той или иной части системы.
+
+Например, для отопительных зон, если текущая уличная температура превышает настроенную температуру в параметре “отключение по НТ (наружной температуре)” для соответствующего контура, это приводит к отключению зоны, при этом визуально на табло регулятора (для 700-й серии) в основном экране пропадает текст “желаемая температура” с указанием значения.
+
+<img src="./images/272_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
+
+[Открыть в Telegram](https://t.mewebcontrol_app/272)
+
+---
+
+### 2026-07-16
+
+Как вам такое будущее?
+
+Лично мне не нравится. Автоматизация всего и вся должна быть разумной. При усложнении системы возрастает вероятность отказа. А если учесть ориентированность любого производителя на увеличение продаж и прибыли и наши трудности с запасными частями, то риски остаться без отопления в случае отказа только возрастают. 
+
+Я не против прогресса, и по мнению людей, с большим опытом работы с Vaillant, серия конденсатников CS очень хороша в автоматической адаптации к системе отопления, но такое ставить лично себе в текущих условиях  я бы категорически не стал.
+
+<img src="./images/271_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
+
+[Открыть в Telegram](https://t.mewebcontrol_app/271)
+
+---
+
+### 2026-05-30
+
+О возможности совместного использования Home Assistant и Webcontrol (продолжение)
+
+Однако после попытки обновления Webcontrol до последней версии все конечно-же поломалось, т.к. новая версия не совместима по обновлениям с первыми версиями (что, кстати, указано в Changelog) перед ним встала проблема что делать. Решение пользователь придумал оригинальное: установил на мини ПК последнюю версию Webcontrol, и чтобы не потерять автоматизацию также установил EBUSD непосредственно в HA и физически подключил этот EBUSD через второй ebus - адаптер к шине.  Таким образом, на шине ebus одновременно работают два EBUSD. 
+
+А теперь техническая часть
+
+Ситуация экзотическая, но возможная.  Около года назад я случайно одновременно подключил два комплекта Webcontrol к своей системе, и когда понял, что сделал проверил работу каждого из комплектов. На удивление, все не поломалось: насколько я помню, каждый из комплектов Webcontrol нормально читал параметры системы, если только этого не делать одновременно. При попытке одновременного чтения появлялись ошибки чтения. 
+
+Тут также важно понимать, что по умолчанию (если специально не сконфигурирован через параметр строки запуска -- address) ebusd присваивает себе фиксированные адреса по шине 31/36 (master/slave, HEX) что, кстати, хорошо видно на диагностике: 
+address 31: master #8, ebusd 
+address 36: slave #8, ebusd
+
+Когда на шине один EBUSD никаких проблем не возникает, но если два ebusd окажутся на шине одновременно они будут пытаться занять одни и те же адреса что приведет к конфликту:
+address 31: master #8, ebusd, conflict
+address 36: slave #8, ebusd
+
+Чтобы все заработало – надо принудительно поменять адрес одного из ebusd, что пользователь и сделал, поменяв адрес ebusd, установленного в HA на 37 (см. фото настроек ebusd в HA из предыдущего поста). 
+
+Сейчас идет тестирование, но, по моему мнению, такая связка вполне работоспособна, главное не допускать одновременного интенсивного обмена между HA / Webcontrol и регулятором (или теплогенератором).
+
+[Открыть в Telegram](https://t.mewebcontrol_app/270)
+
+---
+
+### 2026-05-30
+
+О возможности совместного использования Home Assistant и Webcontrol
+
+Данный вопрос очень специфичный и вряд ли будет интересен большинству, но информация интересная, поэтому решил поделится.
+
+Предыстория. 
+
+У одного из первых пользователей Webcontrol (обладателя одной из ранних версий) была необходимость дополнительной автоматизации его системы отопления через уже существующий у него Home Assistant (HA). Поскольку первые версии Webcontrol шли без защиты кода и окружения от изменения, то пользователь установил версию EBUSD с поддержкой MQTT (версия EBUSD, входящая в состав Webcontrol MQTT не поддерживает). После чего благополучно долгое время эксплуатировал эту связку без каких-либо проблем. (Для справки: HA размещался на отдельном компьютере, не на мини-ПК с Webcontrol).
+
+<img src="./images/268_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/269_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
+
+[Открыть в Telegram](https://t.mewebcontrol_app/268)
+
+---
+
+### 2026-04-15
+
+Использует ли кто - нибудь из подписчиков VRT380?
+
+[Открыть в Telegram](https://t.mewebcontrol_app/266)
 
 ---
 
 ### Полный архив публикаций
 
-**Архив по годам:** [2026](./2026.html) (50) • [2025](./2025.html) (40) • [2024](./2024.html) (99) • [2023](./2023.html) (49)
+**Архив по годам:** [2026](./2026.html) (40) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
+
+
+<div id="tg-lightbox" onclick="closeTgLightbox()" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.85); align-items:center; justify-content:center; cursor:zoom-out; padding:20px; box-sizing:border-box;">
+  <span style="position:fixed; top:16px; right:24px; color:#fff; font-size:32px; font-weight:bold; cursor:pointer; user-select:none;">&times;</span>
+  <img id="tg-lightbox-img" src="" alt="Полный размер" style="max-width:95vw; max-height:92vh; border-radius:6px; box-shadow:0 4px 24px rgba(0,0,0,0.6); cursor:default;" onclick="event.stopPropagation()">
+</div>
+<script>
+function openTgLightbox(src) {
+  var lb = document.getElementById('tg-lightbox');
+  document.getElementById('tg-lightbox-img').src = src;
+  lb.style.display = 'flex';
+}
+function closeTgLightbox() {
+  document.getElementById('tg-lightbox').style.display = 'none';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeTgLightbox();
+});
+</script>
