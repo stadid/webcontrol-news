@@ -1,8 +1,24 @@
 [Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol/) | [Канал в Telegram](https://t.me/webcontrol_app)
 
-**Архив по годам:** [2026](./2026.html) (40) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
+**Архив по годам:** [2026](./2026.html) (41) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
-*Обновлено: 21.11.26 20:39 (МСК)*
+*Обновлено: 21.11.26 20:46 (МСК)*
+
+---
+
+### 2026-11-21
+
+Автоматическая трансляция сообщений канала из Телеграм на Github pages.
+
+Поскольку многим читать новости тут не очень удобно, то сделал автоматическую публикацию сообщений на Github pages (пока, вроде, доступны). Туда же перенес все сообщения с момента создания канала. 
+
+Пока работает в экспериментальном режиме т.е. может глючить и не работать совсем. )))))
+
+Вот адрес: https://stadid.github.io/webcontrol-news/
+
+<img src="./images/288_AQADhiZrG7b7EEh9.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
+
+[Открыть в Telegram](https://t.me/webcontrol_app/288)
 
 ---
 
@@ -251,15 +267,7 @@ address 36: slave #8, ebusd
 
 ---
 
-### 2026-04-15
-
-Использует ли кто - нибудь из подписчиков VRT380?
-
-[Открыть в Telegram](https://t.me/webcontrol_app/266)
-
----
-
-**Архив по годам:** [2026](./2026.html) (40) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
+**Архив по годам:** [2026](./2026.html) (41) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
 
 <div id="tg-lightbox" onclick="closeTgLightbox()" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.85); align-items:center; justify-content:center; cursor:zoom-out; padding:20px; box-sizing:border-box;">
