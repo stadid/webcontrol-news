@@ -313,8 +313,8 @@ def generate_rss(posts_list, output_file=RSS_FILE):
       },
   )
 
-  # Берем последние 100 постов
-  for p in posts_list[:100]:
+  # Берем последние 100 постов posts_list[:100]:
+  for p in posts_list:
     item = ET.SubElement(channel, "item")
     msg_id = p["message_id"]
     tg_link = f"https://t.me/{CHANNEL_USERNAME}/{msg_id}"
