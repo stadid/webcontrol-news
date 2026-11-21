@@ -2,8 +2,8 @@ name: Sync Telegram Channel with Images
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *' # автоматический запуск каждые 6 часов
+  workflow_dispatch:       # ручной запуск кнопкой во вкладке Actions
 
 permissions:
   contents: write
@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
