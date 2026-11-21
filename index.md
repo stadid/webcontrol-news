@@ -1,4 +1,3 @@
-# Новости и обновления Webcontrol
 
 [Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol) | [Канал в Telegram](https://t.me/webcontrol_app)
 
