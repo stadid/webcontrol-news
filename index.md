@@ -1,4 +1,4 @@
-[Главная страница Webcontrol](https://github.io) | [Репозиторий GitHub](https://github.com) | [Канал в Telegram](https://t.mewebcontrol_app)
+[Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol/) | [Канал в Telegram](https://t.mewebcontrol_app)
 
 **Архив по годам:** [2026](./2026.html) (40) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
