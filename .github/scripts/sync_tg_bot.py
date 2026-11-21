@@ -6,9 +6,9 @@ from collections import defaultdict
 
 TOKEN = os.environ["TG_BOT_TOKEN"]
 CHANNEL_USERNAME = "webcontrol_app"
-MAIN_PROJECT_URL = "https://stadid.github.io/webcontrol/"
-API_URL = f"https://api.telegram.org/bot{TOKEN}"
-FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}"
+MAIN_PROJECT_URL = "https://github.io"
+API_URL = f"https://telegram.org{TOKEN}"
+FILE_URL = f"https://telegram.org{TOKEN}"
 
 IMG_DIR = "images"
 FILES_DIR = "files"
@@ -50,7 +50,7 @@ for upd in updates:
     msg_id = str(post["message_id"])
     group_id = str(post["media_group_id"]) if post.get("media_group_id") else None
     text = (post.get("text") or post.get("caption") or "").strip()
-    date_ts = post.get("date", 0)
+    date_ts = int(post.get("date", 0))
     date_str = datetime.fromtimestamp(date_ts, tz=timezone.utc).strftime("%Y-%m-%d")
 
     target_id = media_groups[group_id] if (group_id and group_id in media_groups) else msg_id
@@ -115,6 +115,7 @@ for upd in updates:
         "message_id": int(target_id),
         "media_group_id": group_id,
         "date": existing.get("date", date_str),
+        "timestamp": existing.get("timestamp", date_ts),
         "text": final_text,
         "captions": captions,
         "images": images,
@@ -124,32 +125,92 @@ for upd in updates:
 with open(DATA_FILE, "w", encoding="utf-8") as f:
     json.dump(posts, f, ensure_ascii=False, indent=2)
 
-sorted_posts = [
-    p for p in sorted(posts.values(), key=lambda x: x["message_id"], reverse=True)
+# Сортируем в хронологическом порядке для склейки альбомов без media_group_id
+chronological_posts = [
+    p for p in sorted(posts.values(), key=lambda x: x["message_id"])
     if p.get("text") or p.get("images") or p.get("files")
 ]
+
+merged_posts = []
+for p in chronological_posts:
+    can_merge = False
+    if merged_posts and not p.get("text") and not p.get("files") and p.get("images"):
+        prev = merged_posts[-1]
+        ts_curr = int(p.get("timestamp", 0))
+        ts_prev = int(prev.get("last_timestamp", prev.get("timestamp", 0)))
+        
+        if ts_curr > 0 and ts_prev > 0:
+            # Точная проверка: склеиваем только если фото отправлены в пределах 2 минут (120 сек)
+            can_merge = abs(ts_curr - ts_prev) <= 120
+        else:
+            # Запасной вариант для записей без timestamp: одна дата и подряд идущие ID
+            can_merge = (
+                prev["date"] == p["date"]
+                and (p["message_id"] - prev.get("last_msg_id", prev["message_id"])) <= 5
+            )
+
+    if can_merge:
+        for img in p["images"]:
+            if img not in merged_posts[-1]["images"]:
+                merged_posts[-1]["images"].append(img)
+        merged_posts[-1]["last_msg_id"] = p["message_id"]
+        if p.get("timestamp"):
+            merged_posts[-1]["last_timestamp"] = p["timestamp"]
+    else:
+        item = dict(p)
+        item["images"] = list(p.get("images", []))
+        item["files"] = list(p.get("files", []))
+        item["last_msg_id"] = p["message_id"]
+        item["last_timestamp"] = p.get("timestamp", 0)
+        merged_posts.append(item)
+
+sorted_posts = list(reversed(merged_posts))
 
 by_year = defaultdict(list)
 for p in sorted_posts:
     year_key = p["date"][:4]
     by_year[year_key].append(p)
 
+# HTML/CSS/JS для всплывающего окна (лайтбокса)
+LIGHTBOX_SNIPPET = """
+<div id="tg-lightbox" onclick="closeTgLightbox()" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.85); align-items:center; justify-content:center; cursor:zoom-out; padding:20px; box-sizing:border-box;">
+  <span style="position:fixed; top:16px; right:24px; color:#fff; font-size:32px; font-weight:bold; cursor:pointer; user-select:none;">&times;</span>
+  <img id="tg-lightbox-img" src="" alt="Полный размер" style="max-width:95vw; max-height:92vh; border-radius:6px; box-shadow:0 4px 24px rgba(0,0,0,0.6); cursor:default;" onclick="event.stopPropagation()">
+</div>
+<script>
+function openTgLightbox(src) {
+  var lb = document.getElementById('tg-lightbox');
+  document.getElementById('tg-lightbox-img').src = src;
+  lb.style.display = 'flex';
+}
+function closeTgLightbox() {
+  document.getElementById('tg-lightbox').style.display = 'none';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeTgLightbox();
+});
+</script>
+"""
+
 def render_post(p):
     lines = [f"### {p['date']}", ""]
     if p["text"]:
         lines.extend([p["text"], ""])
-    for img in p.get("images", []):
-        lines.extend([
-            f'<img src="./{img}" alt="Изображение к посту" style="max-width: 550px; width: 100%; height: auto; border-radius: 6px;">',
-            ""
-        ])
+    if p.get("images"):
+        thumbs = []
+        for img in p["images"]:
+            thumbs.append(
+                f'<img src="./{img}" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" '
+                f'style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">'
+            )
+        lines.extend(["".join(thumbs), ""])
     for doc in p.get("files", []):
         lines.extend([
             f'📎 **Вложение:** [{doc["name"]}](./{doc["path"]})',
             ""
         ])
     lines.extend([
-        f"[Открыть в Telegram](https://t.me/{CHANNEL_USERNAME}/{p['message_id']})",
+        f"[Открыть в Telegram](https://t.me{CHANNEL_USERNAME}/{p['message_id']})",
         "",
         "---",
         ""
@@ -160,22 +221,22 @@ archive_links = []
 for year in sorted(by_year.keys(), reverse=True):
     archive_links.append(f"[{year}](./{year}.html) ({len(by_year[year])})")
     year_lines = [
-        f"# Новости Webcontrol — {year} год",
+        f"## Новости Webcontrol — {year} год",
         "",
-        f"[← Свежие новости](./) | [Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub](https://github.com/stadid/webcontrol)",
+        f"[← Свежие новости](./) | [Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub](https://github.com)",
         "",
         "---",
         ""
     ]
     for p in by_year[year]:
         year_lines.extend(render_post(p))
+    year_lines.append(LIGHTBOX_SNIPPET)
     with open(f"{year}.md", "w", encoding="utf-8") as f:
         f.write("\n".join(year_lines))
 
 archive_nav = "**Архив по годам:** " + " • ".join(archive_links) if archive_links else ""
 main_lines = [
-    "",
-    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub](https://github.com/stadid/webcontrol) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME})",
+    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub](https://github.com) | [Канал в Telegram](https://t.me{CHANNEL_USERNAME})",
     "",
     archive_nav,
     "",
@@ -188,6 +249,8 @@ for p in sorted_posts[:15]:
 
 if len(sorted_posts) > 15:
     main_lines.extend(["### Полный архив публикаций", "", archive_nav, ""])
+
+main_lines.append(LIGHTBOX_SNIPPET)
 
 with open(INDEX_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(main_lines))
