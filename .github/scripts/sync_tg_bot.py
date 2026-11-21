@@ -3,6 +3,12 @@ import json
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from collections import defaultdict
+import email.utils
+import html
+import xml.etree.ElementTree as ET
+
+NEWS_SITE_URL = "https://stadid.github.io/webcontrol-news/"
+RSS_FILE = "feed.xml"
 
 TOKEN = os.environ["TG_BOT_TOKEN"]
 CHANNEL_USERNAME = "webcontrol_app"
@@ -254,7 +260,7 @@ archive_nav = build_archive_nav()
 updated_at = datetime.now(timezone(timedelta(hours=3))).strftime("%d.%m.%y %H:%M")
 
 main_lines = [
-    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME})",
+    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME}) | [RSS](./{RSS_FILE}",
     "",
     archive_nav,
     "",
@@ -274,3 +280,90 @@ main_lines.append(LIGHTBOX_SNIPPET)
 
 with open(INDEX_FILE, "w", encoding="utf-8") as f:
     f.write("\n".join(main_lines))
+
+
+def generate_rss(posts_list, output_file=RSS_FILE):
+  rss = ET.Element(
+      "rss",
+      {
+          "version": "2.0",
+          "xmlns:atom": "http://w3.org",
+      },
+  )
+  channel = ET.SubElement(rss, "channel")
+
+  ET.SubElement(channel, "title").text = "Новости Webcontrol"
+  ET.SubElement(channel, "link").text = NEWS_SITE_URL
+  ET.SubElement(channel, "description").text = (
+      "Новости и анонсы Webcontrol из Telegram-канала @webcontrol_app"
+  )
+  ET.SubElement(channel, "language").text = "ru"
+  ET.SubElement(channel, "lastBuildDate").text = email.utils.format_datetime(
+      datetime.now(timezone.utc)
+  )
+
+  # Ссылка на сам фид (рекомендуется стандартом RSS для валидаторов)
+  ET.SubElement(
+      channel,
+      "atom:link",
+      {
+          "href": f"{NEWS_SITE_URL}{output_file}",
+          "rel": "self",
+          "type": "application/rss+xml",
+      },
+  )
+
+  # Берем последние 30 постов
+  for p in posts_list[:30]:
+    item = ET.SubElement(channel, "item")
+    msg_id = p["message_id"]
+    tg_link = f"https://t.me/{CHANNEL_USERNAME}/{msg_id}"
+
+    # Заголовок: первая строка поста (до 100 символов) или дата
+    raw_text = (p.get("text") or "").strip()
+    if raw_text:
+      first_line = raw_text.splitlines()[0].strip()
+      title = (
+          (first_line[:97] + "...") if len(first_line) > 100 else first_line
+      )
+    else:
+      title = f"Обновление от {p['date']}"
+
+    ET.SubElement(item, "title").text = title
+    ET.SubElement(item, "link").text = tg_link
+    ET.SubElement(item, "guid", isPermaLink="true").text = tg_link
+
+    # Дата публикации в формате RFC 822
+    ts = int(p.get("timestamp", 0))
+    if ts > 0:
+      dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+    else:
+      dt = datetime.strptime(p["date"], "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    ET.SubElement(item, "pubDate").text = email.utils.format_datetime(dt)
+
+    # Формируем HTML-контент для RSS-ридеров
+    html_parts = []
+    if raw_text:
+      escaped_text = html.escape(raw_text).replace("\n", "<br>\n")
+      html_parts.append(f"<p>{escaped_text}</p>")
+
+    for img in p.get("images", []):
+      img_url = f"{NEWS_SITE_URL}{img}"
+      html_parts.append(
+          f'<p><img src="{img_url}" alt="Изображение к посту"'
+          ' style="max-width:100%; height:auto;"></p>'
+      )
+
+    for doc in p.get("files", []):
+      doc_url = f"{NEWS_SITE_URL}{doc['path']}"
+      doc_name = html.escape(doc["name"])
+      html_parts.append(f'<p>📎 Вложение: <a href="{doc_url}">{doc_name}</a></p>')
+
+    html_parts.append(f'<p><a href="{tg_link}">Открыть в Telegram</a></p>')
+    ET.SubElement(item, "description").text = "\n".join(html_parts)
+
+  tree = ET.ElementTree(rss)
+  ET.indent(tree, space="  ")
+  tree.write(output_file, encoding="utf-8", xml_declaration=True)
+
+generate_rss(sorted_posts)
