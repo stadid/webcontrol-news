@@ -7,9 +7,8 @@ from collections import defaultdict
 TOKEN = os.environ["TG_BOT_TOKEN"]
 CHANNEL_USERNAME = "webcontrol_app"
 MAIN_PROJECT_URL = "https://github.io"
-API_URL = f"https://telegram.org{TOKEN}"
-FILE_URL = f"https://telegram.org{TOKEN}"
-
+API_URL = f"https://api.telegram.org/bot{TOKEN}"
+FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}"
 IMG_DIR = "images"
 FILES_DIR = "files"
 DATA_FILE = "data.json"
