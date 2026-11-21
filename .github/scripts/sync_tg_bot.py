@@ -260,7 +260,7 @@ archive_nav = build_archive_nav()
 updated_at = datetime.now(timezone(timedelta(hours=3))).strftime("%d.%m.%y %H:%M")
 
 main_lines = [
-    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME}) | [RSS](./{RSS_FILE}",
+    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME}) | [RSS](./{RSS_FILE})",
     "",
     archive_nav,
     "",
