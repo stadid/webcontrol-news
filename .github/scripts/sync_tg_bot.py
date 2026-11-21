@@ -7,6 +7,7 @@ from collections import defaultdict
 TOKEN = os.environ["TG_BOT_TOKEN"]
 CHANNEL_USERNAME = "webcontrol_app"
 MAIN_PROJECT_URL = "https://stadid.github.io/webcontrol/"
+REPO_URL = "https://github.com/stadid/webcontrol/"
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}"
 IMG_DIR = "images"
@@ -222,7 +223,7 @@ for year in sorted(by_year.keys(), reverse=True):
     year_lines = [
         f"## Новости Webcontrol — {year} год",
         "",
-        f"[← Свежие новости](./) | [Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub](https://github.com)",
+        f"[← Свежие новости](./) | [Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL})",
         "",
         "---",
         ""
@@ -235,7 +236,7 @@ for year in sorted(by_year.keys(), reverse=True):
 
 archive_nav = "**Архив по годам:** " + " • ".join(archive_links) if archive_links else ""
 main_lines = [
-    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub](https://github.com/stadid/webcontrol) | [Канал в Telegram](https://t.me{CHANNEL_USERNAME})",
+    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me{CHANNEL_USERNAME})",
     "",
     archive_nav,
     "",
