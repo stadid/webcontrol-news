@@ -248,7 +248,7 @@ for p in sorted_posts[:15]:
     main_lines.extend(render_post(p))
 
 if len(sorted_posts) > 15:
-    main_lines.extend(["### Полный архив публикаций", "", archive_nav, ""])
+    main_lines.extend([archive_nav, ""])
 
 main_lines.append(LIGHTBOX_SNIPPET)
 
