@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0" xmlns:atom="http://w3.org">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Новости Webcontrol</title>
     <link>https://stadid.github.io/webcontrol-news/</link>
     <description>Новости и анонсы Webcontrol из Telegram-канала @webcontrol_app</description>
     <language>ru</language>
-    <lastBuildDate>Sat, 21 Nov 2026 19:12:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 19:28:02 +0000</lastBuildDate>
     <atom:link href="https://stadid.github.io/webcontrol-news/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Автоматическая трансляция сообщений канала из Телеграм на Github pages.</title>
@@ -19,7 +19,7 @@
 Пока работает в экспериментальном режиме т.е. может глючить и не работать совсем. )))))&lt;br&gt;
 &lt;br&gt;
 Вот адрес: https://stadid.github.io/webcontrol-news/&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/288_AQADhiZrG7b7EEh9.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/288_AQADhiZrG7b7EEh9.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/288"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -53,7 +53,7 @@ https://vaillant.com.ru/upload/%D0%9F%D1%80%D0%B5%D1%81%D1%81-%D1%80%D0%B5%D0%BB
 Вроде должны уже были починить.  &lt;br&gt;
 &lt;br&gt;
 Комментировать не стану, но хочу выразить свое личное мнение, что делать в текущих условиях ставку на облачные сервисы, при наличии локально работающих альтернатив как минимум легкомысленно.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/286_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/286_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/286"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -68,7 +68,7 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 Архив по ссылке содержит образ  в формате *.ova для импорта и запуска в доступной среде виртуализации (VirtualBox, Proxmox и т.д.). После запуска ВМ, веб-интерфейс программы будет доступен на 80-м порту (http). По умолчанию Webcontrol настроен на автоматическое получение IP адреса (DHCP). &lt;br&gt;
 &lt;br&gt;
 Поскольку по умолчанию Webcontrol настроен на использование USB EBUS адаптера, непосредственно подключаемого к ПК с Webcontrol и определяемого как /dev/ttyUSB0, то при использовании USB EBUS адаптера необходимо обеспечить видимость данного адаптера внутри виртуальной машины и изменить имя устройства в параметрах EBUSD, если это требуется. Также можно использовать ЛЮБОЙ ДРУГОЙ EBUS адаптер совместимый с EBUSD версии 23.3, изменив тип используемого адаптера в настройках EBUSD через веб-интерфейс Webcontrol.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/285_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/285_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/285"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -83,10 +83,10 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 Также добавлена настройка для данного напоминания, включая отправку сообщений через Telegram и NTFY.&lt;br&gt;
 &lt;br&gt;
 Как будет возможность - добавлю такую же опцию для 720-го.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/281_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/282_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/283_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/284_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/281_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/282_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/283_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/284_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/281"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -181,9 +181,9 @@ https://aliexpress.ru/item/1005011868010866.html&lt;br&gt;
 Не так давно у Webcontrol появился новый пользователь с редко встречающейся конфигурацией системы – у него регулятор 700-й серии установлен (штатно) прямо в котел. Некоторые модели теплогенераторов предыдущих поколений это позволяют – у них предусмотрена заглушка на передней панели под регулятор, а в комплекте 700-го регулятора идет специальный трех-штыревой соединитель для подключения регулятора к плате котла. Покопался у себя в закромах и даже нашел его чтобы проиллюстрировать этот пост.&lt;br&gt;
 &lt;br&gt;
 Если регулятор установлен в котел, то его внутренний датчик температуры аппаратно отключается и данные температуры не используются для расчета температуры соответствующего контура, даже если регулятор привязан к одной из зон. Учитывается только уличная температура.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/274_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/275_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/276_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/274_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/275_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/276_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/274"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -208,7 +208,7 @@ https://aliexpress.ru/item/1005011868010866.html&lt;br&gt;
 Наверняка, многие пользователи Webcontrol в процессе использования программы встречались со значениями “0.0” выводимых для желаемых температур отопительных зон и расчётных температур контуров. Но задумывались ли вы, почему и, главное, при каких состояниях регулятора эти температуры принимают такие значения. На мой взгляд, ответ прост – это специальные значения (возможно, значения по умолчанию), говорящие о том, что управляющий алгоритм определяющий целевую температуру не активен для той или иной части системы.&lt;br&gt;
 &lt;br&gt;
 Например, для отопительных зон, если текущая уличная температура превышает настроенную температуру в параметре “отключение по НТ (наружной температуре)” для соответствующего контура, это приводит к отключению зоны, при этом визуально на табло регулятора (для 700-й серии) в основном экране пропадает текст “желаемая температура” с указанием значения.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/272_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/272_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/272"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -221,7 +221,7 @@ https://aliexpress.ru/item/1005011868010866.html&lt;br&gt;
 Лично мне не нравится. Автоматизация всего и вся должна быть разумной. При усложнении системы возрастает вероятность отказа. А если учесть ориентированность любого производителя на увеличение продаж и прибыли и наши трудности с запасными частями, то риски остаться без отопления в случае отказа только возрастают. &lt;br&gt;
 &lt;br&gt;
 Я не против прогресса, и по мнению людей, с большим опытом работы с Vaillant, серия конденсатников CS очень хороша в автоматической адаптации к системе отопления, но такое ставить лично себе в текущих условиях  я бы категорически не стал.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/271_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/271_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/271"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -262,8 +262,8 @@ address 36: slave #8, ebusd&lt;br&gt;
 Предыстория. &lt;br&gt;
 &lt;br&gt;
 У одного из первых пользователей Webcontrol (обладателя одной из ранних версий) была необходимость дополнительной автоматизации его системы отопления через уже существующий у него Home Assistant (HA). Поскольку первые версии Webcontrol шли без защиты кода и окружения от изменения, то пользователь установил версию EBUSD с поддержкой MQTT (версия EBUSD, входящая в состав Webcontrol MQTT не поддерживает). После чего благополучно долгое время эксплуатировал эту связку без каких-либо проблем. (Для справки: HA размещался на отдельном компьютере, не на мини-ПК с Webcontrol).&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/268_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/269_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/268_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/269_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/268"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -381,10 +381,10 @@ https://smspilot.ru/software.php#webcontrol&lt;br&gt;
 Сейчас  тестирую NTFY, потом передам обновление на тестирование сторонним пользователям и если у них все заработает штатно, то выпущу обновление.&lt;br&gt;
 &lt;br&gt;
 Мне еще и инструкции ко всему этому писать.....&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/256_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/257_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/258_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/259_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/256_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/257_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/258_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/259_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/256"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -397,8 +397,8 @@ https://smspilot.ru/software.php#webcontrol&lt;br&gt;
 Полностью сделал отправку SMS (интерфейс настроек + очередь отправки). Сегодня начал тестирование.  Осталось только написать инструкцию.&lt;br&gt;
 &lt;br&gt;
 Начал делать интеграцию с NTFY. Потом сразу все включу в одно обновление. Очень много возни, т.к. раньше был один транспорт (Telegram), а теперь их три. И у каждого свои особенности реализации очереди отправки.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/254_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/255_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/254_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/255_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/254"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -413,7 +413,7 @@ https://smspilot.ru/software.php#webcontrol&lt;br&gt;
 Это делается в разделе &amp;quot;Настройки&amp;quot; -&amp;gt; &amp;quot;Настройка взаимодействия через Telegram-бота&amp;quot;.&lt;br&gt;
 &lt;br&gt;
 Также всем настоятельно рекомендую зарегистрироваться на narodmon.ru и настроить в Webcontrol передачу хотя бы одного параметра.  Таким образом, Вы сможете косвенно контролировать состояние своей системы без телеграм.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/253_export.jpg" alt="Изображение к посту" style="max-width:100%; height:auto;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/253_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/253"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
