@@ -252,7 +252,7 @@ for year in sorted_years:
 
 archive_nav = build_archive_nav()
 main_lines = [
-    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me{CHANNEL_USERNAME})",
+    f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME})",
     "",
     archive_nav,
     "",
