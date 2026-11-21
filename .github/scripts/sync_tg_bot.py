@@ -217,9 +217,21 @@ def render_post(p):
     ])
     return lines
 
-archive_links = []
-for year in sorted(by_year.keys(), reverse=True):
-    archive_links.append(f"[{year}](./{year}.html) ({len(by_year[year])})")
+sorted_years = sorted(by_year.keys(), reverse=True)
+
+def build_archive_nav(current_year=None):
+    if not sorted_years:
+        return ""
+    links = []
+    for y in sorted_years:
+        count = len(by_year[y])
+        if y == current_year:
+            links.append(f"**{y} ({count})**")
+        else:
+            links.append(f"[{y}](./{y}.html) ({count})")
+    return "**Архив по годам:** " + " • ".join(links)
+
+for year in sorted_years:
     year_lines = [
         f"## Новости Webcontrol — {year} год",
         "",
@@ -230,11 +242,15 @@ for year in sorted(by_year.keys(), reverse=True):
     ]
     for p in by_year[year]:
         year_lines.extend(render_post(p))
+    
+    # Добавляем навигацию по годам в конец архивного файла (текущий год — жирным, остальные — ссылками)
+    year_lines.extend([build_archive_nav(current_year=year), ""])
     year_lines.append(LIGHTBOX_SNIPPET)
+    
     with open(f"{year}.md", "w", encoding="utf-8") as f:
         f.write("\n".join(year_lines))
 
-archive_nav = "**Архив по годам:** " + " • ".join(archive_links) if archive_links else ""
+archive_nav = build_archive_nav()
 main_lines = [
     f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me{CHANNEL_USERNAME})",
     "",
