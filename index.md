@@ -1,4 +1,4 @@
-[Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol/) | [Канал в Telegram](https://t.mewebcontrol_app)
+[Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol/) | [Канал в Telegram](https://t.me/webcontrol_app)
 
 **Архив по годам:** [2026](./2026.html) (40) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
@@ -14,7 +14,7 @@ https://www.forumhouse.ru/threads/417757/page-42
 
 Спасибо!
 
-[Открыть в Telegram](https://t.mewebcontrol_app/287)
+[Открыть в Telegram](https://t.me/webcontrol_app/287)
 
 ---
 
@@ -35,7 +35,7 @@ https://vaillant.com.ru/upload/%D0%9F%D1%80%D0%B5%D1%81%D1%81-%D1%80%D0%B5%D0%BB
 
 <img src="./images/286_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.mewebcontrol_app/286)
+[Открыть в Telegram](https://t.me/webcontrol_app/286)
 
 ---
 
@@ -51,7 +51,7 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 
 <img src="./images/285_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.mewebcontrol_app/285)
+[Открыть в Telegram](https://t.me/webcontrol_app/285)
 
 ---
 
@@ -67,7 +67,7 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 
 <img src="./images/281_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/282_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/283_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/284_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.mewebcontrol_app/281)
+[Открыть в Telegram](https://t.me/webcontrol_app/281)
 
 ---
 
@@ -93,7 +93,7 @@ https://github.com/stadid/webcontrol/releases/download/v2026.11.14_VM_image/Webc
 
 Присылайте идентификаторы для лицензионного ключа в личку (для тех, с кем общался напрямую), или в сообщения каналу.
 
-[Открыть в Telegram](https://t.mewebcontrol_app/280)
+[Открыть в Telegram](https://t.me/webcontrol_app/280)
 
 ---
 
@@ -109,7 +109,7 @@ Webcontrol – полностью готовое решения ориентир
 
 Как показала практика, можно использовать и Webcontrol и HA одновременно, [подключив их к одной системе отопления](https://t.me/webcontrol_app/268).
 
-[Открыть в Telegram](https://t.mewebcontrol_app/279)
+[Открыть в Telegram](https://t.me/webcontrol_app/279)
 
 ---
 
@@ -134,7 +134,7 @@ https://aliexpress.ru/item/1005011868010866.html
 
 Как лично мне кажется проект ebusd сдвигается в сторону micro-ebusd с привязкой к облаку и платной подпиской на micro-ebusd (см. https://token.ebusd.eu/).
 
-[Открыть в Telegram](https://t.mewebcontrol_app/278)
+[Открыть в Telegram](https://t.me/webcontrol_app/278)
 
 ---
 
@@ -147,7 +147,7 @@ https://aliexpress.ru/item/1005011868010866.html
 
 В рамках Webcontrol было бы здорово определять, что регулятор установлен в котел, чтобы выводить соответствующее сообщение вместо “0.0”, но такого регистра в сообществе EBUSD никто не искал (по крайней мере, я не нашел упоминаний). Можно это сделать по косвенным признакам, но это не 100% надежно, и я не сторонник таких “костылей”.
 
-[Открыть в Telegram](https://t.mewebcontrol_app/277)
+[Открыть в Telegram](https://t.me/webcontrol_app/277)
 
 ---
 
@@ -163,7 +163,7 @@ https://aliexpress.ru/item/1005011868010866.html
 
 <img src="./images/274_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/275_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/276_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.mewebcontrol_app/274)
+[Открыть в Telegram](https://t.me/webcontrol_app/274)
 
 ---
 
@@ -175,7 +175,7 @@ https://aliexpress.ru/item/1005011868010866.html
 Это вызывало недоумение у некоторых пользователей, особенно если учесть, что о параметре “отключение по НТ” знают далеко не все. Чтобы приблизить отображение в программе, к тому что пользователи видят на экране регулятора было принято решение в веб интерфейсе программы для отопительных зон в случае если зона отключается убрать надпись “желаемая температура 0.0”. Обновление Webcontrol до версии 2026.07.20 вносит эти изменения.
 Что касается расчетной температуры контуров, то тут все очевидно: если контур не задействован, то расчетный алгоритм не работает, и расчетная температура контура отображается как “0.0”.
 
-[Открыть в Telegram](https://t.mewebcontrol_app/273)
+[Открыть в Telegram](https://t.me/webcontrol_app/273)
 
 ---
 
@@ -189,7 +189,7 @@ https://aliexpress.ru/item/1005011868010866.html
 
 <img src="./images/272_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.mewebcontrol_app/272)
+[Открыть в Telegram](https://t.me/webcontrol_app/272)
 
 ---
 
@@ -203,7 +203,7 @@ https://aliexpress.ru/item/1005011868010866.html
 
 <img src="./images/271_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.mewebcontrol_app/271)
+[Открыть в Telegram](https://t.me/webcontrol_app/271)
 
 ---
 
@@ -229,7 +229,7 @@ address 36: slave #8, ebusd
 
 Сейчас идет тестирование, но, по моему мнению, такая связка вполне работоспособна, главное не допускать одновременного интенсивного обмена между HA / Webcontrol и регулятором (или теплогенератором).
 
-[Открыть в Telegram](https://t.mewebcontrol_app/270)
+[Открыть в Telegram](https://t.me/webcontrol_app/270)
 
 ---
 
@@ -245,7 +245,7 @@ address 36: slave #8, ebusd
 
 <img src="./images/268_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/269_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
 
-[Открыть в Telegram](https://t.mewebcontrol_app/268)
+[Открыть в Telegram](https://t.me/webcontrol_app/268)
 
 ---
 
@@ -253,7 +253,7 @@ address 36: slave #8, ebusd
 
 Использует ли кто - нибудь из подписчиков VRT380?
 
-[Открыть в Telegram](https://t.mewebcontrol_app/266)
+[Открыть в Telegram](https://t.me/webcontrol_app/266)
 
 ---
 
