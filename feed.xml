@@ -5,7 +5,7 @@
     <link>https://stadid.github.io/webcontrol-news/</link>
     <description>Новости и анонсы Webcontrol из Telegram-канала @webcontrol_app</description>
     <language>ru</language>
-    <lastBuildDate>Sat, 21 Nov 2026 19:28:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 20:01:36 +0000</lastBuildDate>
     <atom:link href="https://stadid.github.io/webcontrol-news/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Автоматическая трансляция сообщений канала из Телеграм на Github pages.</title>
@@ -540,6 +540,2258 @@ Tg8&lt;br&gt;
 &lt;br&gt;
 Владельцам 700-го обновляться необязательно. Для них ничего не поменялось кроме номера версии))))&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://t.me/webcontrol_app/248"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление Webcontrol до версии 2026.02.10</title>
+      <link>https://t.me/webcontrol_app/247</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/247</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление Webcontrol до версии 2026.02.10&lt;br&gt;
+&lt;br&gt;
+Добавлена отправка Telegram уведомлений при выходе давления теплоносителя в системе из заданного пользователем диапазона.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/247_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/247"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление Webcontrol до версии 2026.02.06</title>
+      <link>https://t.me/webcontrol_app/246</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/246</guid>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление Webcontrol до версии 2026.02.06&lt;br&gt;
+&lt;br&gt;
+Поскольку появился первый пользователь Webcontrol использующий котел Protherm Ray совместно с регулятором Vaillant в программу добавлена расшифровка кодов состояния и ошибок для линейки котлов Ray Protherm.&lt;br&gt;
+&lt;br&gt;
+Ray Protherm 6 KE /14 RU, UA арт. 0010023646&lt;br&gt;
+Ray Protherm 9 KE /14 RU, UA арт. 0010023647&lt;br&gt;
+Ray Protherm 12 KE /14 RU, UA  арт. 0010023648&lt;br&gt;
+Ray Protherm 14 KE /14 RU, UA арт. 0010023649 &lt;br&gt;
+Ray Protherm 18 KE /14 RU, UA  арт. 0010023650&lt;br&gt;
+Ray Protherm 21 KE /14 RU, UA арт. 0010023651&lt;br&gt;
+Ray Protherm 24 KE /14 RU, UA арт. 0010023652&lt;br&gt;
+Ray Protherm 28 KE /14 RU, UA арт. 0010023653&lt;br&gt;
+&lt;br&gt;
+Необычное сочетание компонентов двух марок, но если работает, то почему бы и нет, тем более что, судя по инструкциям к обоим котлам, Eloblock отличается от Ray только платой дисплея.  Конечно, возможны незначительные различия на программном уровне, но платформа то все равно одна.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/246"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Относительно добавления поддержки не поддерживаемых  в настоящий момент моделей регуляторов.</title>
+      <link>https://t.me/webcontrol_app/245</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/245</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Относительно добавления поддержки не поддерживаемых  в настоящий момент моделей регуляторов.&lt;br&gt;
+&lt;br&gt;
+Недавно один из потенциальных пользователей Webcontrol узнавал, поддерживает ли программа VRC470. К сожалению, на данный момент - нет. И появление такой поддержки целиком и полностью завит от пользователей, т.е. от Вас.&lt;br&gt;
+&lt;br&gt;
+Условно, регуляторы можно разделить на две группы: для первой группы поддержка добавляется относительно легко, и вторая группа, которая требует значительного времени и ресурсов.&lt;br&gt;
+&lt;br&gt;
+К первым относятся все беспроводные варианты VRC700 и VRC720 - модели с индексом f мало распространенные у нас (VRC700f, VRC720f), а также VRT380.&lt;br&gt;
+&lt;br&gt;
+Ко вторым можно отнести VRT370, VRC470, VRC630 – их поддержка требует времени и наличия у меня самого регулятора, для проведения анализа его работы и конфигурации ebusd. Также необходимо потратить значительное время на создание интерфейса и написание отдельной ветки кода для конкретного регулятора.&lt;br&gt;
+&lt;br&gt;
+Феерическая эпопея с добавлением поддержки VRC720 отучила меня разменивать собственное время и здоровье на “просто спасибо” от пользователей. Поэтому добавление поддержки регуляторов из второй группы будет осуществляться только на платной основе при значительном количестве пользователей, заинтересованных в добавлении той или иной модели регулятора или готовых целиком оплатить разработку.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/245"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Схема подключения Webcontrol к отопительной системе  (пример).</title>
+      <link>https://t.me/webcontrol_app/244</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/244</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Схема подключения Webcontrol к отопительной системе  (пример).&lt;br&gt;
+&lt;br&gt;
+Для тех,  кому возня с проводами дается нелегко.&lt;br&gt;
+&lt;br&gt;
+Это упрощенный пример - он может не соответствовать конфигурации Вашей системы. Назначение этого изображения - облегчить  пользователю понимание как  подключить Webcontrol к своей системе.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/244_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/244"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление Webcontrol до версии 2026.01.31</title>
+      <link>https://t.me/webcontrol_app/243</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/243</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление Webcontrol до версии 2026.01.31&lt;br&gt;
+&lt;br&gt;
+Благодаря одному из первых подписчиков канала недавно обновившемуся на последнюю версию удалось обнаружить и исправить неприятный нюанс отображения температуры обратной линии теплогенератора.&lt;br&gt;
+&lt;br&gt;
+Дело в том, что до текущего момента Webcontrol не проверял состояние датчиков температуры подающей и обратной линии, а просто читал их значения. Для тех котлов, у которых нет датчика обратной линии (например, серии Elobloсk) чтение данного параметра вызывало ошибку и корректно обрабатывалось программой. Однако у подписчика датчик обратной линии предусмотрен в конструкции (и прошивке), но не установлен на заводе (опционален). В результате Webcontrol считывал некоторое случайное значение, не имеющее к реальности никакого отношения.   Собственно, текущее обновление и исправляет такое вводящее в заблуждение пользователя поведение программы.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/243_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/243"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ВСЕМ подписчикам проголосовавшим за канал  в течении сегодняшнего дня (28.01.2026) - лицензионный...</title>
+      <link>https://t.me/webcontrol_app/242</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/242</guid>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;ВСЕМ подписчикам проголосовавшим за канал  в течении сегодняшнего дня (28.01.2026) - лицензионный ключ в подарок. &lt;br&gt;
+&lt;br&gt;
+Пожалуйста свяжитесь со мной в комментариях к этому сообщению.&lt;br&gt;
+&lt;br&gt;
+Напоминаю, я не могу выдать лицензионный ключ &amp;quot;заранее&amp;quot;.  У Вас должен быть уже установлен Webcontrol одной из свежих версий, чтобы Вы могли мне прислать Ваш идентификатор для формирования лицензионного ключа.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/242"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Спасибо большое всем проголосовавшим за канал!</title>
+      <link>https://t.me/webcontrol_app/241</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/241</guid>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Спасибо большое всем проголосовавшим за канал!&lt;br&gt;
+&lt;br&gt;
+За счет всего 3-х подписчиков удалось достичь необходимого уровня и включить перевод сообщений.&lt;br&gt;
+&lt;br&gt;
+Вот так все и происходит в нашей жизни: единицы неравнодушных что-то делают, а остальные запаслись попкорном и смотрят на это ))))))&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/241"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Просьба к Premium-подписчикам Telegram проголосовать за канал.</title>
+      <link>https://t.me/webcontrol_app/240</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/240</guid>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Просьба к Premium-подписчикам Telegram проголосовать за канал.&lt;br&gt;
+&lt;br&gt;
+Уважаемые подписчики!&lt;br&gt;
+Необходима Ваша поддержка.&lt;br&gt;
+&lt;br&gt;
+Поскольку наш канал стали просматривать не-русскоязычные пользователи, я бы хотел включить для канала возможность переводить сообщения, что возможно только при определенном уровне проголосовавших за канал Premium - подписчиков Telegram.&lt;br&gt;
+&lt;br&gt;
+Ссылка для голосования: https://t.me/boost/webcontrol_app&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/240"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Год непрерывной работы мини-ПК с Webcontrol  и обновление Webcontrol до версии 2026.01.22</title>
+      <link>https://t.me/webcontrol_app/239</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/239</guid>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Год непрерывной работы мини-ПК с Webcontrol  и обновление Webcontrol до версии 2026.01.22&lt;br&gt;
+&lt;br&gt;
+Как можно увидеть на изображении, на данный момент время непрерывной работы моего мини-ПК составляет ровно 1 год. Вообще-то, это не самое длительное время: предыдущий период составил где-то год и 2 месяца, но умершие в ИБП батареи поставили крест на идее довести это время до 2-х лет.&lt;br&gt;
+&lt;br&gt;
+Также на изображении можно увидеть новую функцию, добавленную в Webcontrol по просьбе одного из “старых” пользователей – кнопку перезагрузки мини-ПК. &lt;br&gt;
+&lt;br&gt;
+Помимо этого, в версии 2026.01.22 исправлено обновление через интернет. По рассеянности в мае прошлого года я исправил только один из этапов обновления (проверка на новую версию), а второй этап где осуществляется загрузка файла обновления – забыл исправить.  В этом обновлении эта досадная оплошность исправлена.&lt;br&gt;
+&lt;br&gt;
+Так что это обновление необходимо будет установить вручную через zip файл. [Скачать файл.](https://disk.yandex.ru/d/rdZbEPWTJkDPvw)&lt;br&gt;
+&lt;br&gt;
+Кстати, это обновление предназначено для версии Webcontrol не ниже 2024.08.15&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/239_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/239"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление Webcontrol до версии 2026.01.19</title>
+      <link>https://t.me/webcontrol_app/238</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/238</guid>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление Webcontrol до версии 2026.01.19&lt;br&gt;
+&lt;br&gt;
+Из основного - теперь можно изменять настройки функции защиты от легионелл (в предыдущих версиях данные настройки просто отображались без возможности их изменения).&lt;br&gt;
+&lt;br&gt;
+Обновление затрагивает как 700-й, так и 720-й регулятор.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/238_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/238"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>У Webcontrol появилась страница на GitHub</title>
+      <link>https://t.me/webcontrol_app/237</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/237</guid>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;У Webcontrol появилась страница на GitHub&lt;br&gt;
+&lt;br&gt;
+Преследуемый навязчивой мыслью “a чего добру пропадать” решился все-таки сделать страницу Webcontrol на GitHub. Сделал красивую англоязычную WiKi, дальше все будет зависеть от интереса пользователей. Совершенно непонятно что из этого получится и получится ли что-нибудь вообще, т.к. у зарубежных пользователей и набор используемого оборудования другой и сервисы наши там не актуальны. К тому же Webcontrol архитектурно не создавался под многоязыковой интерфейс и объем перевода там тоже немаленький…&lt;br&gt;
+&lt;br&gt;
+https://github.com/stadid/webcontrol&lt;br&gt;
+&lt;br&gt;
+В связи с этим у меня просьба - уважаемые подписчики и читатели канала, если у Вас есть учетная запись на GitHub и вы считаете Webcontrol достойным - поставьте репозиторию звезд. Таким образом вы поддержите разработку. &lt;br&gt;
+&lt;br&gt;
+Спасибо!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/237_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/237"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>С Наступающим!</title>
+      <link>https://t.me/webcontrol_app/236</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/236</guid>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;С Наступающим!&lt;br&gt;
+&lt;br&gt;
+В череде приятных предновогодних хлопот настало время подвести итоги уходящего года. Итак, активная фаза разработки Webcontrol завершилась.  Не хотелось бы останавливаться на достигнутом, но отсутствие интереса со стороны пользователей  совершенно не располагает к добавлению чего-то нового. С другой стороны, отсутствие негативных отзывов от пользователей показывает что текущая версия работает стабильно и содержит все необходимые функции.&lt;br&gt;
+&lt;br&gt;
+Также VGR запустили в этом году свою систему удаленного управления, так что у пользователей расширился выбор, что хорошо.&lt;br&gt;
+&lt;br&gt;
+Vaillant продолжили доводить до ума свою систему, и она (судя по отображаемым параметрам) смогла приблизится к Webcontrol.&lt;br&gt;
+По крайней мере я сделал такой вывод посмотрев на интерфейс в одной из последних версий их приложения. &lt;br&gt;
+&lt;br&gt;
+Вот такой был год...&lt;br&gt;
+&lt;br&gt;
+Желаю всем в Новом Году тепла и беспроблемной работы инженерных систем!&lt;br&gt;
+&lt;br&gt;
+С Наступающим!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/236"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Функции Webcontrol, которые планировались, но не были реализованы (продолжение).</title>
+      <link>https://t.me/webcontrol_app/235</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/235</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Функции Webcontrol, которые планировались, но не были реализованы (продолжение).&lt;br&gt;
+&lt;br&gt;
+Еще была идея реализовать отправку предупреждения через телеграм-бота о падении давления теплоносителя в системе (порог настраивается пользователем). В текущей реализации Webcontrol это можно сделать через отправку значения давления на narodmon и установить там уведомление о выходе параметра за заданный диапазон, но это хлопотно настраивать, а так был бы простой способ путем установки одной галочки и ввода значения. И пользователи с “дырявой” системой отопления или ненакачанным / прохудившимся расширительным баком были бы заранее предупреждены.&lt;br&gt;
+&lt;br&gt;
+Также думал о сохранении и восстановлении настроек временных окон регулятора. В Webcontrol есть сохранение настроек регулятора в текстовый файл, но это не для обычного пользователя. Как уже не раз писал, восстанавливать все настройки регулятора надо очень аккуратно с полным пониманием что делается, так что восстановление всех настроек я и не планировал никогда, а вот временные окна – вполне.  Про восстановление желаемых температур тоже задумывался, но поверхностно.&lt;br&gt;
+&lt;br&gt;
+Были еще идеи по мелкому улучшению тех или иных функций Webcontrol и доработке интерфейса, но там не особо интересно будет для широкой публики.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/235"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Функции Webcontrol, которые планировались, но не были реализованы.</title>
+      <link>https://t.me/webcontrol_app/234</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/234</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Функции Webcontrol, которые планировались, но не были реализованы.&lt;br&gt;
+&lt;br&gt;
+Разбирал недавно рабочий архив по проекту Webcontrol и наткнулся на список планируемых к добавлению функций. Сейчас, поскольку интерес аудитории к проекту минимальный, не вижу смысла разменивать свое время и здоровье на доработки, хотя некоторые из них видятся мне полезными.&lt;br&gt;
+&lt;br&gt;
+Например, добавление для 700-го регулятора команд телеграм бота для управления режимами работы отопительных зон и ГВС, а также установки желаемых температур (см. картинку, там приведен формат команд бота с краткими пояснениями).  К сожалению, для 720-го такую штуку просто не провернешь т.к. там для каждого окна своя температура.  Можно, конечно, указать день недели и номер окна, но это очень громоздко, хотя и реализуемо. Остальные температуры в 720-м задаются похоже на 700-й. так что тут проблем не предполагалось.&lt;br&gt;
+&lt;br&gt;
+Продолжение текста в [следующем посте](https://t.me/webcontrol_app/235).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/234_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/234"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Любопытное наблюдение</title>
+      <link>https://t.me/webcontrol_app/233</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/233</guid>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Любопытное наблюдение&lt;br&gt;
+&lt;br&gt;
+В ходе вебинара по vLink, вскользь затрагивалась тема конкурирующих решений в качестве которых приводились: Zont, EctoControl, MyHeat. Про Webcontrol даже не упомянули, хотя (будем честны) это единственное “конкурирующее” c Vlink отечественное решение для систем с родными регуляторами Vaillant. При этом, в подписчиках канала есть некоторое количество людей, тесно связанных с продажей и обслуживанием техники Vaillant.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/233"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Заметки по итогам вебинара по VLink (дополнение)</title>
+      <link>https://t.me/webcontrol_app/232</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/232</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Заметки по итогам вебинара по VLink (дополнение)&lt;br&gt;
+&lt;br&gt;
+Кстати, немного прояснилась ситуация почему в списке официально поддерживаемого оборудования не присутствуют регуляторы VRC700 2-го и 4-го поколений. На текущий момент VGR не удалось добиться стабильной работы данных регуляторов с их системой (опять-таки со слов технического специалиста VGR, ведущего вебинар). Поэтому (как я понимаю) данные регуляторы пока исключили из списка официально поддерживаемого оборудования.  &lt;br&gt;
+&lt;br&gt;
+По своему опыту могу сказать, что в моей программе не было проблем ни со 2-м ни с 4-м поколением. У меня у самого 4-е поколение.  А у пользователей моей программы с которыми я общался были регуляторы 2-го поколения и никто не жаловался.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/232"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Заметки по итогам вебинара по VLink</title>
+      <link>https://t.me/webcontrol_app/231</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/231</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Заметки по итогам вебинара по VLink&lt;br&gt;
+&lt;br&gt;
+Посмотрел вебинар VGR по Vlink. По первому впечатлению - вполне достойная отечественная замена MyVaillant с акцентом на централизацию и сервисную составляющую. Но надо понимать, что VGR в самом начале развития своей системы, со всеми вытекающими последствиями.&lt;br&gt;
+&lt;br&gt;
+Что мне не понравилось - шлюз Vlink все время держит открытую Wi-Fi сеть с дефолтным несменяемым паролем (работает в режиме точки доступа), необходимую для подключения шлюза к Вашей Wi-Fi сети (чтобы ввести название вашей домашней сети и пароль от нее). Как я понял со слов технического специалиста VGR, ведущего вебинар, эта сеть РАБОТАЕТ ВСЕГДА даже после успешного подключения к Вашей Wi-Fi сети. На мой взгляд это недопустимо, т.к. ГИПОТЕТИЧЕСКИ любой может подключится к шлюзу Vlink (в пределах устойчивого приема сигнала от шлюза) и сменить настройки Wi-Fi что приведет к отключению шлюза от интернета.  Правда, надо отметить, что это представляет угрозу только если шлюз Vlink подключен по Wi-Fi.  Если он подключен по кабелю (Ethernet), то это не актуально.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/231"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Как (не)работает OpenSource</title>
+      <link>https://t.me/webcontrol_app/230</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/230</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Как (не)работает OpenSource&lt;br&gt;
+&lt;br&gt;
+Недавно случились события, послужившие поводом для написания этой заметки.&lt;br&gt;
+&lt;br&gt;
+Итак, начало мая этого года. Я заканчиваю ветку кода поддержки 720-го регулятора у себя в программе. Появляются сообщения о возможности использовать ранее заблокированные шлюзы с новым приложением MyVaillant.&lt;br&gt;
+И в MyVaillant появляется отображение влажности воздуха для 700-го регулятора. &lt;br&gt;
+&lt;br&gt;
+Ранее в сообществе ebusd не был найден регистр для влажности 700-го, но, ради справедливости, его мало кто искал. Все, в основном, просили друг-друга его найти))))) Т.к. у меня в то время родной шлюз vr900 не был подключен, мы в сотрудничестве с Антоном при помощи его шлюза сняли лог обмена по шине и путем анализа смогли найти этот регистр. После этого я разместил в сообществе ebusd краткое описание и фрагмент конфигурации файла для 700-го.&lt;br&gt;
+Кто-то из участников сообщества в конце июля, начале августа даже протестировал и подтвердил работоспособность найденной конфигурации. И далее тишина...&lt;br&gt;
+&lt;br&gt;
+Проходит где-то полтора месяца и на github опять кто-то спрашивает, - а не нашли ли регистр влажности для 700-го? И ему дают кусок конфигурации для 720-го, которым я поделился со знакомыми участниками проекта после анализа обмена между 91-м и 700-м. (как оказалось, эта часть задействованных регистров похожа у обоих регуляторов). Мое первое майское сообщение, похоже, не смогли найти))))) И вот на днях наконец-то кто-то сделал PR в основную конфигурацию для поддержки отображения влажности. И еще когда его добавят)))) Вот так все в проекте ebusd и происходит))))))))).&lt;br&gt;
+&lt;br&gt;
+Не совсем в тему. Надо отметить, что  людей, способных написать конфигурацию ebusd вообще очень мало, а людей системно анализирующих &amp;quot;адресное пространство&amp;quot; регистров того-или иного оборудования вообще единицы на весь проект.  Сейчас это стало делать труднее. После перехода проекта ebusd на TypeSpec-представление конфигурации наглядность представления &amp;quot;адресного пространства&amp;quot; значительно ухудшилась, а именно она позволила мне в свое время сильно развить конфигурацию для 700-го.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/230"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Объявлен список поддерживаемого vLINK оборудования</title>
+      <link>https://t.me/webcontrol_app/229</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/229</guid>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Объявлен список поддерживаемого vLINK оборудования&lt;br&gt;
+&lt;br&gt;
+Как я и предполагал, на старте есть ограничения по поддерживаемому оборудованию Vaillant. В частности, поддерживаются Atmo- и TurboTec только 5 поколения, VRC700 только 6-го поколения, а для VRC720 вообще не указано поколение (а их немцы, на секундочку, наклепали уже 3 поколения).&lt;br&gt;
+&lt;br&gt;
+И, кстати, по анонсу: на мой взгляд неверно относить модули VR70 и VR71 в категорию &amp;quot;регуляторы&amp;quot;.  Для обычных пользователей все равно, а для специалистов - заметно.&lt;br&gt;
+&lt;br&gt;
+Кому интересно почитать анонс - сделал PDF, прикладываю к посту.&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/229_V_link.pdf"&gt;V_link.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/229"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Появилась цена на систему удаленного управления vLiNK от VGR.</title>
+      <link>https://t.me/webcontrol_app/228</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/228</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Появилась цена на систему удаленного управления vLiNK от VGR.&lt;br&gt;
+&lt;br&gt;
+Цена на систему удаленного управления от VGR появилась на сайте vaillant.tech.  На 06.06.2025 за нее просят 23 т.р.&lt;br&gt;
+Вполне логичный ценник (на мой взгляд), с учетом того, что сейчас за 921-й на Авито просят где-то 25-27 т.р.&lt;br&gt;
+&lt;br&gt;
+Нормального описания, руководства пользователя, как и родного приложения (если оно существует), впрочем, я не нашел.&lt;br&gt;
+&lt;br&gt;
+Также остается открытым вопрос - будет ли еще дополнительная плата за использование сервиса, либо каких-либо дополнительных услуг. &lt;br&gt;
+&lt;br&gt;
+Мне любопытна работа vLINK там, где нет  регулятора, и при пропадании интернета. И есть ли у vLINK локальное управление (через веб интерфейс или приложение). &lt;br&gt;
+&lt;br&gt;
+Интерес чисто академический, т.к. локальное управление у меня есть, а безрегуляторные системы Webcontrol не поддерживает в силу особенностей применяемого решения.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/228"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Поломка обновления через интернет из-за изменений в формате данных на стороне Яндекс Диска и обно...</title>
+      <link>https://t.me/webcontrol_app/225</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/225</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Поломка обновления через интернет из-за изменений в формате данных на стороне Яндекс Диска и обновление Webcontrol до версии 2025.05.30 исправляющее эту ошибку.&lt;br&gt;
+&lt;br&gt;
+Случайно выяснил что перестало работать обновление программы через интернет. Оказалось, что Яндекс поменял формат данных и программа не может получить необходимую информацию об обновлении. Выпустил исправление, которое надо установить вручную, после чего обновление через интернет снова заработает.&lt;br&gt;
+&lt;br&gt;
+Скачать обновление можно тут: https://disk.yandex.ru/d/rdZbEPWTJkDPvw&lt;br&gt;
+&lt;br&gt;
+Ставится в том же разделе, что и обновление через интернет (в разделе &amp;quot;Обновление посредством загружаемого zip-файла&amp;quot;).&lt;br&gt;
+&lt;br&gt;
+Zip файл обновления разархивировать НЕ НАДО!!!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/225_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/225"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление Webcontrol до версии 2025.05.15</title>
+      <link>https://t.me/webcontrol_app/224</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/224</guid>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление Webcontrol до версии 2025.05.15&lt;br&gt;
+&lt;br&gt;
+Обновление устанавливается через интернет в разделе &amp;quot;Настройки&amp;quot; - &amp;quot;Обновление программы&amp;quot;.&lt;br&gt;
+ &lt;br&gt;
+[подробный список изменений.](https://disk.yandex.ru/d/rdZbEPWTJkDPvw/changelog.txt)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/224"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Доступно для загрузки экспериментальное клиентское приложение Webcontrol для Android.</title>
+      <link>https://t.me/webcontrol_app/220</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/220</guid>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Доступно для загрузки экспериментальное клиентское приложение Webcontrol для Android.&lt;br&gt;
+&lt;br&gt;
+Поскольку Webcontrol - это по сути web-интерфейс, то его можно поставить на главный экран телефона в виде ярлыка для запуска браузера. &lt;br&gt;
+&lt;br&gt;
+Ради интереса решил попробовать создать android - приложение выполняющее эту же функцию (открытие двух настроенных адресов в браузере). Опыт в разработке под Android у меня стремится к нулю, поэтому многого не ожидайте, но по результатам тестирования все на удивление работает)))&lt;br&gt;
+&lt;br&gt;
+APK ставится на android начиная с 6-й версии. &lt;br&gt;
+&lt;br&gt;
+Контрольная сумма SHA1:&lt;br&gt;
+e63026609b37afe9f7051fde1939bc064d9fc3c3&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/221_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/222_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/220_Webcontrol.apk"&gt;Webcontrol.apk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/220"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Как мог бы выглядеть Ebus-адаптер, если бы он производился серийно.</title>
+      <link>https://t.me/webcontrol_app/216</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/216</guid>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Как мог бы выглядеть Ebus-адаптер, если бы он производился серийно.&lt;br&gt;
+&lt;br&gt;
+Активный участник нашего небольшого сообщества Webcontrol [Антон](https://t.me/webcontrol_app/81), потратив изрядное количество своего времени собрал одноплатный вариант адаптера и разработал под него корпус. На мой взгляд, так мог бы выглядеть Ebus-адаптер, если бы он производился серийно. Следует отметить простую и удобную конструкцию корпуса. В остальном, он ничем не отличается от двухплатного варианта.&lt;br&gt;
+&lt;br&gt;
+На представленных фотографиях можно сравнить две версии адаптера.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/216_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/217_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/218_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/219_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/216"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2025-03-28</title>
+      <link>https://t.me/webcontrol_app/215</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/215</guid>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/215_street_temp_vs_avg_street_temp.xlsx"&gt;street_temp_vs_avg_street_temp.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/215"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Заметки о параметре "усредненная уличная температура".</title>
+      <link>https://t.me/webcontrol_app/213</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/213</guid>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Заметки о параметре &amp;quot;усредненная уличная температура&amp;quot;.&lt;br&gt;
+&lt;br&gt;
+Есть в 700-м и 720-м регуляторах такой параметр: &amp;quot;усредненная уличная температура&amp;quot;. Не пытайтесь найти его через меню самого регулятора - его там нет. Он читается только по шине.  Судя по комментариям к конфигурации ebusd, считалось, что он пересчитывается каждые 3 часа, Судя по данным, которые я снял со своего регулятора за предшествующие несколько дней, при расчете этого параметра хорошо сглаживаются суточные колебания температуры &amp;quot;день-ночь&amp;quot;.&lt;br&gt;
+&lt;br&gt;
+Раз этот параметр был создан, значит он используется в управляющих  алгоритмах регулятора - видимо, там, где требуется не быстро изменяющаяся &amp;quot;основа&amp;quot; для входных параметров контрольного алгоритма.&lt;br&gt;
+&lt;br&gt;
+Кому интересно - прикрепляю файл с исходными данными и графиком.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/213_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/213"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Анонс отечественной системы удаленного управления оборудованием Vaillant от VGR.</title>
+      <link>https://t.me/webcontrol_app/212</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/212</guid>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Анонс отечественной системы удаленного управления оборудованием Vaillant от VGR.&lt;br&gt;
+&lt;br&gt;
+Бизнес - структуры, представляющие технику Vaillant на отечественном рынке (VGR), анонсировали запуск собственной системы управления и мониторинга vLINK.&lt;br&gt;
+&lt;br&gt;
+[Ссылка на новость](https://vgr-heating.ru/customer/products/soon/sistema-udalennogo-upravleniya-i-monitoringa-vlink/)&lt;br&gt;
+&lt;br&gt;
+По предварительному описанию можно сделать вывод, что это будет архитектурно схоже с оригинальной системой от Vaillant. Т.е. модуль-преобразователь у клиента и управление через облако со своим приложением.&lt;br&gt;
+&lt;br&gt;
+По заявленному функционалу все вполне достойно. Обещают даже поддержку 630-го регулятора. Молодцы.   &lt;br&gt;
+&lt;br&gt;
+Из интересного: также обещают поддержку систем без регулятора (т.е., как я думаю, связка модуль-преобразователь + облачный сервер будут “прикидываться” регулятором). Схема рабочая, но непонятно как она себя поведет в отсутствии интернета, и насколько богатым будет функционал подобного “эмулируемого” регулятора.&lt;br&gt;
+&lt;br&gt;
+Также непонятно, будет ли стоимость эксплуатации включена в стоимость оборудования (клиентского модуля), либо это будет подписка на сервис.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/212_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/212"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление Webcontrol до версии 2025.03.05</title>
+      <link>https://t.me/webcontrol_app/208</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/208</guid>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление Webcontrol до версии 2025.03.05&lt;br&gt;
+&lt;br&gt;
+Обновление устанавливается через интернет в разделе &amp;quot;Настройки&amp;quot; - &amp;quot;Обновление программы&amp;quot;.&lt;br&gt;
+&lt;br&gt;
+Из основного: &lt;br&gt;
+ДЛЯ ВСЕХ ПОДДЕРЖИВАЕМЫХ РЕГУЛЯТОРОВ (как 700, так и 720) - добавлена экспериментальная функция смены отопительной кривой по значению уличной температуры. &lt;br&gt;
+&lt;br&gt;
+Для семейства 720-х регуляторов добавлена опция установки единой температуры для всех настроенных временных окон всех дней недели. &lt;br&gt;
+ &lt;br&gt;
+[подробный список изменений.](https://disk.yandex.ru/d/rdZbEPWTJkDPvw/changelog.txt)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/208_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/209_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/210_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/211_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/208"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вниманию пользователей MyVaillant app!</title>
+      <link>https://t.me/webcontrol_app/207</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/207</guid>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вниманию пользователей MyVaillant app!&lt;br&gt;
+&lt;br&gt;
+Если Вы решите менять отопительную кривую через приложение MyVaillant - будьте внимательны! На github появился отзыв от пользователя приложения, который утверждает что при смене через приложение отопительной кривой для одного контура, она поменялась сразу для трех контуров!&lt;br&gt;
+&lt;br&gt;
+[Ссылка на оригинальное сообщение.](https://github.com/john30/ebusd-configuration/pull/482#issuecomment-2664097687)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/207_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/207"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вопрос по добавлению функции установки отопительной кривой в зависимости от уличной температуры.</title>
+      <link>https://t.me/webcontrol_app/206</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/206</guid>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вопрос по добавлению функции установки отопительной кривой в зависимости от уличной температуры.&lt;br&gt;
+&lt;br&gt;
+В процессе работы над программой, как минимум 3 совершенно разных человека упоминали что, было бы здорово, если бы можно было менять отопительную кривую автоматически в зависимости от уличной температуры.  Оставим сейчас обсуждение насколько это соответствует идеологии Vaillant по настройке регулятора. Раз это используется и позволяет обеспечить комфорт – значит даже такое “костыльное” решение имеет право на существование.&lt;br&gt;
+&lt;br&gt;
+На данный момент мне видится такая реализация в рамках моей программы: &lt;br&gt;
+&lt;br&gt;
+- уличная температура для срабатывания условия по смене кривой выбирается в диапазоне от -30 до +30 с шагом 1 градус&lt;br&gt;
+&lt;br&gt;
+- условие срабатывания содержит два варианта: &lt;br&gt;
+ меньше или равно&lt;br&gt;
+больше &lt;br&gt;
+&lt;br&gt;
+- частота проверки уличной температуры настраиваемая (предлагаю следующие фиксированные значения: каждые 3 часа, каждые 6 часов, каждые 12 часов)&lt;br&gt;
+&lt;br&gt;
+- пользователь сам добавляет условия смены кривой при значениях уличной температуры выше и ниже уставки (т.е. граничной температуры при которой происходит смена кривой) , т.е. придется добавлять два условия:&lt;br&gt;
+&lt;br&gt;
+Если уличная температура &amp;lt; = уставка1 то установить для контура Х отопительную кривую Y1 &lt;br&gt;
+Если уличная температура &amp;gt; уставка2 то установить для контура Х отопительную кривую Y2&lt;br&gt;
+&lt;br&gt;
+уставка1 не обязательно должна быть равна уставке2&lt;br&gt;
+ (таким образом мы обеспечиваем  гистерезис).&lt;br&gt;
+&lt;br&gt;
+Прошу всех заинтересованных написать свои мысли в комментариях к данному сообщению. По результатам будет решен вопрос о добавлении этой функции в программу.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/206"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Для тех, кто хочет приобрести готовый комплект  (мини-пк c  уже установленным ПО Webcontrol + ада...</title>
+      <link>https://t.me/webcontrol_app/204</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/204</guid>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Для тех, кто хочет приобрести готовый комплект  (мини-пк c  уже установленным ПО Webcontrol + адаптер e-bus) , а также заказать услуги по установке и настройке “под ключ”.&lt;br&gt;
+&lt;br&gt;
+Два участника нашего сообщества (оба являются давними пользователями программы) оказывают такие услуги.&lt;br&gt;
+&lt;br&gt;
+Андрей&lt;br&gt;
+https://t.me/cashic_telegramm&lt;br&gt;
+https://myshop-cov128.myinsales.ru/product/importozameschenie-oblachnogo-upravleniya-otopitelnyh-kotlov-vaillant&lt;br&gt;
+&lt;br&gt;
+- можно приобрести готовый комплект Webcontrol с установкой и настройкой “под ключ” (только Московский регион)&lt;br&gt;
+- можно взять комплект Webcontrol на тестирование (только Московский регион)&lt;br&gt;
+- можно приобрести готовый комплект Webcontrol с отправкой транспортной компанией заказчику&lt;br&gt;
+- дистанционные консультации по подключению и настройке купленного комплекта&lt;br&gt;
+- возможна работа как с физическими, так и с юридическими лицами.&lt;br&gt;
+&lt;br&gt;
+Антон&lt;br&gt;
+https://t.me/Patamushta99&lt;br&gt;
+&lt;br&gt;
+- можно приобрести под заказ готовый комплект Webcontrol с установкой и настройкой “под ключ” (только Московский регион). &lt;br&gt;
+- можно приобрести под заказ готовый комплект Webcontrol с отправкой транспортной компанией заказчику&lt;br&gt;
+- дистанционные консультации по подключению и настройке купленного комплекта&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/204"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вышла новая версия Webcontrol 2025.02.01</title>
+      <link>https://t.me/webcontrol_app/203</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/203</guid>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вышла новая версия Webcontrol 2025.02.01&lt;br&gt;
+&lt;br&gt;
+Из основного: добавлена поддержка каскада и обновление программы через интернет. Из-за добавления каскада обозначения теплогенератора(ов) в программе теперь содержат номера, т.е. “основной” теплогенератор (тот, который подключается напрямую к e-bus шине) называется теперь не просто “теплогенератор”, а “теплогенератор 1”.  Желающие могут посмотреть [подробный список изменений.](https://disk.yandex.ru/d/rdZbEPWTJkDPvw/changelog.txt)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/203"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Добавление поддержки каскадного подключения теплогенераторов.</title>
+      <link>https://t.me/webcontrol_app/196</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/196</guid>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Добавление поддержки каскадного подключения теплогенераторов.&lt;br&gt;
+&lt;br&gt;
+В программу добавлено отображение состояния и информирование об ошибках теплогенераторов в каскаде.  Как это выглядит можно увидеть на прилагаемых изображениях.&lt;br&gt;
+&lt;br&gt;
+Это не очень востребованная функция, т.к., преимущественно, в системе только один теплогенератор. Я изначально не планировал добавлять поддержку каскада, тем более, что в рамках ebusd это делается не так просто (сложности с VR32). Но благодаря подписчику канала Олегу, его усилиям и вовлеченности в процесс добавления поддержки каскада удалось реализовать и успешно протестировать эту функцию. Так что, если появятся пользователи Webcontrol - владельцы каскадов - можете сказать спасибо Олегу.  Кстати, и за поддержку полного количества зон и контуров для VRC700 - тоже.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/196_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/197_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/198_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/199_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/200_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/201_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/202_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/196"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Подключение VR91 используя существующую Ethernet - инфраструктуру.</title>
+      <link>https://t.me/webcontrol_app/193</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/193</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Подключение VR91 используя существующую Ethernet - инфраструктуру.&lt;br&gt;
+&lt;br&gt;
+Хочу поделиться свой реализацией подключения VR91 через уже проложенный Ethernet – кабель.&lt;br&gt;
+Итак, задача: установить VR91 в любой из комнат дома без прокладки отдельного провода e-bus шины. При наличии Ethernet-розетки в каждой комнате (у меня есть) решается использованием части пар уже проложенного Ethernet кабеля. Плюсы: не надо ничего прокладывать. Минусы: теряете скорость (только 100 Мбит), рискуете сжечь порт Ethernet-карты при подключении в розетку напрямую (без разделителя), т.к. макс. напряжение на шине e-bus 24В. Реализацию можно посмотреть на картинках.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/193_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/194_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/195_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/193"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Спасибо всем проголосовавшим!</title>
+      <link>https://t.me/webcontrol_app/192</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/192</guid>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Спасибо всем проголосовавшим!&lt;br&gt;
+Результаты голосования не стали для меня неожиданностью,  просто чуть лучше стало понимание потенциальной аудитории программы.&lt;br&gt;
+ &lt;br&gt;
+Для 30 человек (по состоянию на 19.01.2025), которые потенциально желают попробовать Webcontrol: надеюсь, такая возможность предоставится в ближайшем будущем. &lt;br&gt;
+&lt;br&gt;
+Следите за новостями.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/192"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Друзья! Не хотелось бы писать Новогодние поздравления "для галочки".</title>
+      <link>https://t.me/webcontrol_app/191</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/191</guid>
+      <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Друзья! Не хотелось бы писать Новогодние поздравления &amp;quot;для галочки&amp;quot;. &lt;br&gt;
+&lt;br&gt;
+Позвольте сформулировать это так: если сейчас Вы спокойны за свою систему отопления благодаря Webcontrol, и усилиям многих хороших людей участвующих в развитии программы - это лучший новогодний подарок всем нам!&lt;br&gt;
+Хотелось бы чтобы таких людей в  Новом Году стало больше))&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/191"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Добавил в программу обновление через интернет</title>
+      <link>https://t.me/webcontrol_app/189</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/189</guid>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Добавил в программу обновление через интернет&lt;br&gt;
+&lt;br&gt;
+Совершенно ненужная функция. С текущей поддержкой от пользователей – абсолютно невостребованная, но меня попросили, и я не смог отказать, потому что просили люди принявшие активное участие в развитии и продвижении программы. Вот сделал, и теперь думаю как этот функционал лучше использовать.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/189_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/189"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Отображение относительной влажности воздуха для зон, привязанных к VR91</title>
+      <link>https://t.me/webcontrol_app/188</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/188</guid>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Отображение относительной влажности воздуха для зон, привязанных к VR91&lt;br&gt;
+&lt;br&gt;
+Так случилось, что у меня появился VR91, и почти сразу возникло желание отобразить в моей программе показания относительной влажности воздуха из него. (в меню VR91 они же присутствуют). Кстати, в родном приложении MyVaillant влажность воздуха не отображается для зон, привязанных к VR91 (лично проверил несколько недель тому назад). Т.е. посмотреть, как это сделано в родном приложении не получилось, пришлось взяться за анализ трафика по шине e-bus между VR91 и VRC700. В результате почти недельной возни узнал много интересного о том, как работает связка VRC700-VR91. В частности, определение “прибор дистанционного управления” дано 91-му не просто так. Он действительно является по сути выносным пультом управления от 700-го со встроенным датчиком температуры и влажности. В результате, мое приложение в настоящий момент по конкретно этому параметру (отображение влажности для 91-х) превосходит родное.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/188_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/188"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>О необычных схемах настройки VRC700</title>
+      <link>https://t.me/webcontrol_app/187</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/187</guid>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;О необычных схемах настройки VRC700&lt;br&gt;
+&lt;br&gt;
+За время моей работы над программой, я познакомился со многими схемами настройки 700-го регулятора, и мне казалось, что у меня в программе предусмотрено почти все…, ну почти ))))&lt;br&gt;
+&lt;br&gt;
+Однако реальность всегда преподносит сюрпризы. Как оказалось, есть еще схема, не отраженная у меня. Тот самый редкий случай, когда в системе нет привязки вообще ни у одной зоны. Т.е. регулятор есть, он исправно рулит отопительными контурами по уличной температуре и отопительной кривой с учетом желаемой температуры для каждой из зон. А сама температура воздуха в отопительных зонах ему не интересна. Фактически она используется только в режиме защиты от замерзания.&lt;br&gt;
+&lt;br&gt;
+Ну а программа штука логичная: нет привязки – нет отображения фактической температуры воздуха помещения. Вот для этого случая и пришлось добавить настройку для отображения температуры и влажности, которые читаются из 700-го в независимости от того привязан он к какой-либо зоне или нет.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/187_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/187"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Новости по “железу” для Webcontrol.</title>
+      <link>https://t.me/webcontrol_app/185</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/185</guid>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Новости по “железу” для Webcontrol.&lt;br&gt;
+&lt;br&gt;
+Насколько я могу видеть, модель мини-пк Beelink T4-PRO практически пропала из продаж, ей на смену пришла модель Beelink T5 на более новом процессоре. &lt;br&gt;
+&lt;br&gt;
+В настоящий момент мне известно о двух модификациях модели T5: одна из которых имеет контроллер WiFi Realtek 8822CE, а другая Realtek 8821CE. &lt;br&gt;
+&lt;br&gt;
+На модификацию Beelink T5 на контроллере 8821CE недавно был успешно установлен последний образ от T4 PRO (выложенный тут в канале) и WiFi-соединение успешно заработало. Предполагаю, что с высокой долей вероятности и другая модификация T5 на 8822CE также заработает “из коробки”.&lt;br&gt;
+&lt;br&gt;
+Если Вы ставили Webcontrol на Beelink T5 c WiFi контроллером на 8822CE пожалуйста отпишитесь в комментариях к этому сообщению, все ли работает.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/185_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/186_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/185"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Разъяснения по поводу лицензионных ключей</title>
+      <link>https://t.me/webcontrol_app/184</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/184</guid>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Разъяснения по поводу лицензионных ключей&lt;br&gt;
+&lt;br&gt;
+Лицензионный ключ привязывается к серийному номеру регулятора и не имеет окончания срока действия (т.е. пока регулятор не сломался или Вы его не сменили на другой - у Вас полная версия программы). Все остальные компоненты системы (включая приборы дистанционного управления VR91/VR92) можно менять и удалять/добавлять без ограничений.&lt;br&gt;
+&lt;br&gt;
+Мне бы очень хотелось, чтобы перед покупкой лицензионного ключа пользователи были уверены в качестве и надежности работы программы, в чем можно убедиться, только воспользовавшись ознакомительной версией на протяжении некоторого времени (хотя бы 3-х недель).  Поэтому я не хотел бы сразу предоставлять ключи пользователям, еще не пользовавшимся программой. &lt;br&gt;
+&lt;br&gt;
+Мне важно, чтобы покупая лицензию Вы делали осознанный выбор, понимая на что Вы тратите деньги, а не в порыве эмоций (пусть даже и положительных).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/184"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Разъяснения по поводу ознакомительной версии Webcontrol</title>
+      <link>https://t.me/webcontrol_app/183</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/183</guid>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Разъяснения по поводу ознакомительной версии Webcontrol&lt;br&gt;
+&lt;br&gt;
+Хотелось бы пояснить некоторые моменты, связанные с ознакомительной версией.&lt;br&gt;
+&lt;br&gt;
+Начну с того, что ознакомительная версия, хоть так и называется, не имеет существенных ограничений по функционалу. Т.е. если у Вас один контур + ГВС, то все что нужно рядовому пользователю: – регулировка температур и режимов + уведомления об ошибках через Telegram - бота работает также, как и в полной версии, таким образом Вы можете сколько угодно пользоваться бесплатной ознакомительной версией (она не ограничивается по сроку использования). &lt;br&gt;
+&lt;br&gt;
+Такие функции, как отображение пользовательских параметров и отправка данных на Narodmon нужны крайне ограниченному числу пользователей и ограничение на количество параметров в этих функциях в бесплатной версии почти ни на что не влияет.&lt;br&gt;
+&lt;br&gt;
+Вы можете пользоваться бесплатной версией даже для многоконтурной/многозональной конфигурации. В бесплатной версии жесткого ограничения на НОМЕР зоны нет, есть ограничение на КОЛИЧЕСТВО зон. Т.е. чтобы посмотреть все зоны / контура теоретически можно каждый раз залезать в настройки и переставлять галочки с зоны 1 на зону 2 и т.д. Неудобно,  зато бесплатно)))))&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/183"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Небольшое обновление в интерфейсе управления временными окнами для 700-го регулятора.</title>
+      <link>https://t.me/webcontrol_app/182</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/182</guid>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Небольшое обновление в интерфейсе управления временными окнами для 700-го регулятора. &lt;br&gt;
+&lt;br&gt;
+Поскольку многие пользователи упускают при настройке отопительной зоны связанный параметр соответствующего зоне отопительного контура &amp;quot;Режим авто отключения&amp;quot;, то натыкаются на непонятное для них поведение регулятора вне временных окон. Чтобы, по возможности, избежать этого добавил в интерфейс программы подсказку и немного поменял сопроводительный текст раздела &amp;quot;Настройка временных окон отопления&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/182_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/182"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Для регуляторов семейства VRC700 на странице “параметры” добавлены ссылки на изменение значений п...</title>
+      <link>https://t.me/webcontrol_app/181</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/181</guid>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Для регуляторов семейства VRC700 на странице “параметры” добавлены ссылки на изменение значений параметров контура.&lt;br&gt;
+&lt;br&gt;
+Вообще, я не сторонник давать пользователю простой способ редактировать значения “не пользовательских” параметров, изменяя которые пользователь должен ОЧЕНЬ ХОРОШО понимать, что он делает (таковых в общей массе пользователей очень немного). Тем не менее, в MyVaillant разработчики открыли возможность редактировать часть параметров (например, отопительную кривую), о чем мне сообщили пользователи родного приложения. &lt;br&gt;
+Я еще раз хочу напомнить, что в Webcontrol это БЫЛО ИЗНАЧАЛЬНО (режим прямого изменения параметров), просто это СПЕЦИАЛЬНО было сделано не в очень удобной форме чтобы шаловливые ручки пользователей случайно не поломали настройки своей системы.&lt;br&gt;
+&lt;br&gt;
+Поскольку добавление этого функционала, не было очень сложным, то решил все-таки сделать, тем более что у меня в программе есть несколько ролей пользователей (уровней доступа) что позволяет запретить доступ к изменению этих параметров.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/181_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/181"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Улучшение интерфейса программы для работы с временными окнами для 700-го регулятора.</title>
+      <link>https://t.me/webcontrol_app/180</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/180</guid>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Улучшение интерфейса программы для работы с временными окнами для 700-го регулятора.&lt;br&gt;
+&lt;br&gt;
+Внес небольшие улучшения в интерфейс настройки временных окон отопления, ГВС и циркуляции ГВС для 700-го регулятора.  Теперь можно, как и в 720-м редактировать временные окна для выбранного дня недели. Достаточно выбрать его название, представленное в виде ссылки. При этом в выпадающие списки времени начала и завершения временных окон устанавливаются значения из соответствующего дня и устанавливается галочка для этого дня. Достаточно внести необходимые изменения и нажать кнопку [применить временные окна].&lt;br&gt;
+&lt;br&gt;
+Используя этот режим можно легко скопировать расписание из одного дня в другой (другие).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/180_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/180"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Небольшое обновление системы - установка GPIO адаптера.</title>
+      <link>https://t.me/webcontrol_app/175</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/175</guid>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Небольшое обновление системы - установка GPIO адаптера.&lt;br&gt;
+&lt;br&gt;
+Если Вы внимательно читали канал, то наверное помните что в программе была реализована функция внешнего управления при помощи замыкания/размыкания внешнего контакта. Во многих конфигурациях с VR70/71 это реализовано производителем, но выбор действий жестко задан, а во вторых что делать тем, у кого нет VR70/71?&lt;br&gt;
+&lt;br&gt;
+В общем,  алгоритм управления для включения / выключения ГВС вышел весьма объемным, хотя действие совсем простое: выключить приготовление ГВ при замыкании управляющего контакта.&lt;br&gt;
+&lt;br&gt;
+Железочная часть реализована при помощи GPIO USB адаптера и реле давления, но вот GPIO адаптер без корпуса и без разъема для подключения управляющих контактов. В результате пришлось придумывать нечто вроде переходника и отдать хорошим знакомым для сборки и печати корпуса под подобный адаптер.  Наконец, (спустя 5 месяцев) получил готовый адаптер и подключил к системе. Еще раз проверил - все работает по заданному алгоритму. Большинству, конечно, этот функционал не нужен.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/175_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/176_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/177_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/178_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/179_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/175"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Webcontrol теперь в каталоге приборов на сайте проекта Narodmon.</title>
+      <link>https://t.me/webcontrol_app/173</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/173</guid>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Webcontrol теперь в каталоге приборов на сайте проекта Narodmon.&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+Рад сообщить, что Webcontrol был добавлен в каталог приборов проекта Narodmon ([narodmon.ru](https://narodmon.ru/)).&lt;br&gt;
+&lt;br&gt;
+Хотелось бы надеяться, что размещение в каталоге Narodmon позволит привлечь новых пользователей, и послужит делу популяризации программы.&lt;br&gt;
+&lt;br&gt;
+Вообще, взаимодействовать с командой Narodmon не очень просто, что ни разу не умаляет их огромного вклада в развитие отечественных ГИС и IoT.&lt;br&gt;
+&lt;br&gt;
+Подробнее зачем в программу была добавлена поддержка Narodmon можно прочитать [вот в этом сообщении.](https://t.me/webcontrol_app/91)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/173_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/173"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Доступна новая версия Webcontrol!</title>
+      <link>https://t.me/webcontrol_app/172</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/172</guid>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Доступна новая версия Webcontrol!&lt;br&gt;
+&lt;br&gt;
+Итак, друзья, рад сообщить что доступна для загрузки [новая версия Webcontrol](https://t.me/webcontrol_app/13).&lt;br&gt;
+&lt;br&gt;
+Из основного: &lt;br&gt;
+расширена поддержка 700-го регулятора&lt;br&gt;
+добавлена поддержка 720-го регулятора&lt;br&gt;
+добавлено несколько полезных команд Telegram - бота. &lt;br&gt;
+&lt;br&gt;
+В посте по ссылке пытливые пользователи могут найти подробный список изменений.&lt;br&gt;
+&lt;br&gt;
+Как обычно, обратная связь от тех, кто установил и пользуется Webcontrol приветствуется.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/172"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по программе</title>
+      <link>https://t.me/webcontrol_app/171</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/171</guid>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по программе&lt;br&gt;
+&lt;br&gt;
+Завершил тестирование 720-го. Все работает стабильно. Переключился на 700-й, продолжаю тестирование.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/171"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>О дальнейшем развитии программы.</title>
+      <link>https://t.me/webcontrol_app/170</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/170</guid>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;О дальнейшем развитии программы.&lt;br&gt;
+&lt;br&gt;
+Давно хотел написать про развитие программы, тем более что скорый выход новой версии – это значительный шаг вперед, но, в целом, я настроен пессимистично. И вот почему: за почти два года что я тащу этот проект, активную помощь мне оказали суммарно не более 10 человек. Структуры, которые сейчас занимаются оборудованием Vaillant моей разработкой не заинтересовались. Помимо этого, появившаяся не так давно возможность заново зарегистрировать заблокированные шлюзы снизила количество потенциальных пользователей. Вкладывать в разработку значительные ресурсы у меня возможности нет. В этой ситуации дальнейшее развитие программы будет сильно зависеть от поддержки пользователей (фактически от того, сколько лицензий мне удастся реализовать).  Мне неоднократно говорили про создание собственного “облака”, что в отрыве от текущей ситуации логично, но при мизерном количестве пользователей совершенно не оправдано с экономической точки зрения. В связи со всем вышесказанным, серьезных нововведений в программе в ближайшее время не будет, возможно исправление мелких недочетов, которые обнаружатся при работе новой версии. А дальше - посмотрим…&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/170"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по программе</title>
+      <link>https://t.me/webcontrol_app/169</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/169</guid>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по программе&lt;br&gt;
+&lt;br&gt;
+Вышел на финишную прямую с новой версией. Создал установочный образ программы, записал на флешку и провел установку на свой тестовый комплект и сейчас проверяю на 720 регуляторе. Если все будет штатно, через несколько дней переключусь на 700-й регулятор и продолжу тестирование.  Если вопросов не возникнет, то до конца августа выложу новую версию здесь на канале и на бусти.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/169"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Посмотрел ради любопытства как развивается родное приложение MyVaillant. ))</title>
+      <link>https://t.me/webcontrol_app/168</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/168</guid>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Посмотрел ради любопытства как развивается родное приложение MyVaillant. ))&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/168_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/168"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Небольшое обновление по программе</title>
+      <link>https://t.me/webcontrol_app/167</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/167</guid>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Небольшое обновление по программе&lt;br&gt;
+&lt;br&gt;
+Добавил еще одну сервисную команду Telegram – бота: “впн” и ее разновидность “впн вкл”. Команда бота “впн” выводит информацию о состоянии VPN подключения устройства Webcontrol, а команда “впн вкл” включает VPN соединение.&lt;br&gt;
+&lt;br&gt;
+Команда не очень часто используемая, но в редком случае, когда пользователь по рассеянности отключил VPN соединение на устройстве Webcontrol и потерял удаленный доступ к Web-интерфейсу позволяет включить это соединение через Telegram-бота и восстановить доступ.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/167_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/167"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Из опыта эксплуатации Webcontrol</title>
+      <link>https://t.me/webcontrol_app/166</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/166</guid>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Из опыта эксплуатации Webcontrol&lt;br&gt;
+&lt;br&gt;
+Со мной связался один из первых пользователей программы. У него случилась беда: после удара молнии пропало подключение к Web-интерфейсу программы и мини-компьютер перестал подключаться к локальной сети (был подключен через ethernet). &lt;br&gt;
+&lt;br&gt;
+Опытным путем было установлено что в мини-ПК выгорел ethernet порт и как минимум один из USB портов (скорее всего вместе с USB хабом на материнской плате). Пришлось через командную строку включать WiFi, и подключать его к сети, после чего Web-интерфейс заработал, однако подключение к шине так и не появилось. Пришлось разбираться с адаптером. &lt;br&gt;
+&lt;br&gt;
+Как выяснилось, в адаптере погорел преобразователь USB-serial, выгорели оптроны и пострадала вся правая сторона (относящаяся к шине e-bus). К счастью, сама шина и регулятор/котел не пострадали.  После ремонта адаптера все заработало. Вот такая история.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/166_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/166"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Сравнение возможностей</title>
+      <link>https://t.me/webcontrol_app/165</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/165</guid>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Сравнение возможностей&lt;br&gt;
+ознакомительной и полной версии программы.&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/165_Webcontrol_versions_explained.pdf"&gt;Webcontrol_versions_explained.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/165"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по программе</title>
+      <link>https://t.me/webcontrol_app/164</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/164</guid>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по программе&lt;br&gt;
+&lt;br&gt;
+Несмотря на летнее затишье, готовлю ознакомительную версию программы для всех поддерживаемых регуляторов (VRC700, VRC700/2, VRC700/4, VRC700/5, VRC700/6, VRC720, VRC720/2, VRC720/3). Основная часть работы уже сделана, но и осталось тоже немало.&lt;br&gt;
+&lt;br&gt;
+Ознакомительная версия будет полнофункциональной, но будет поддерживать отображение данных только одной зоны и одного контура, плюс имеет ограничение на количество отображаемых пользовательских параметров и на количество параметров отправляемых на Narodmon. При помощи лицензионного ключа будет превращаться в полную версию.&lt;br&gt;
+Надеюсь, в начале - середине августа все будет готово.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/164_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/164"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Отзыв от первого стороннего пользователя программы с регулятором VRC720</title>
+      <link>https://t.me/webcontrol_app/163</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/163</guid>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Отзыв от первого стороннего пользователя программы с регулятором VRC720&lt;br&gt;
+&lt;br&gt;
+Уважаемые подписчики!&lt;br&gt;
+Как и было обещано, первый сторонний пользователь с регулятором VRC720 оставил краткий отзыв о работе программы. &lt;br&gt;
+&lt;br&gt;
+Прочитать сам отзыв можно перейдя по [ссылке](https://t.me/c/1887595475/822). &lt;br&gt;
+Там же в комментариях можно задать свои вопросы.  Надеюсь,  Максим не откажет и ответит на вопросы подписчиков, если они появятся.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/163"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Маленькая хитрость для владельцев 700-го регулятора и полной версии программы:  установка времени...</title>
+      <link>https://t.me/webcontrol_app/162</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/162</guid>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Маленькая хитрость для владельцев 700-го регулятора и полной версии программы:  установка времени окончания режима отсутствие / отпуск.&lt;br&gt;
+&lt;br&gt;
+Как известно, в 700-м регуляторе окончание режима отсутствие (отпуск) нельзя настроить на определенное время – можно указать только дату окончания и режим отключится в 23:59:59 указанной даты. Однако это ограничение можно легко обойти при помощи моей программы и Telegram.&lt;br&gt;
+&lt;br&gt;
+Если у Вас 700-й регулятор и полная версия моей программы и необходимо отменить режим отсутствие (отпуск) в определенное время, то можно воспользоваться отложенной отправкой сообщений в Telegram. &lt;br&gt;
+&lt;br&gt;
+Например, Вам необходимо отменить режим в 12-00 01.04.2025. В самом регуляторе или моей программе Вы ставите дату окончания 01.04.2025, а затем в Телеграме делаете запланированную отправку Вашему боту на 12-00 01.04.2025 команды “обычный режим”. Таким образом, в 12 часов дня 1 апреля режим отпуск будет отключен.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/162_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/162"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Расширение количества поддерживаемых зон/контуров до максимально возможного.</title>
+      <link>https://t.me/webcontrol_app/160</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/160</guid>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Расширение количества поддерживаемых зон/контуров до максимально возможного.&lt;br&gt;
+&lt;br&gt;
+Благодаря подписчику канала с 700-м регулятором и очень редкой системой на 9 (!) контуров, программа была доработана для поддержки максимального количества зон / контуров, и сейчас проходит тестирование. Предварительно все работает штатно.&lt;br&gt;
+&lt;br&gt;
+Таким образом, программа поддерживает максимально возможное количество зон / контуров для совместимых моделей регуляторов:&lt;br&gt;
+&lt;br&gt;
+700 – 2 зоны / контура&lt;br&gt;
+700/2 – 3 зоны / контура&lt;br&gt;
+700/4 – 3 зоны / контура&lt;br&gt;
+700/5 – 9 зон / контуров&lt;br&gt;
+700/6 – 9 зон / контуров&lt;br&gt;
+&lt;br&gt;
+720 (любое поколение) – 9 зон /контуров&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/160_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/161_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/160"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по VRC720. Первые результаты стороннего тестирования.</title>
+      <link>https://t.me/webcontrol_app/159</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/159</guid>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по VRC720. Первые результаты стороннего тестирования.&lt;br&gt;
+&lt;br&gt;
+Сегодня первый сторонний пользователь версии для 720-го регулятора подключил мини-пк с Webcontrol к своей системе и удалось предварительно оценить как работает программа. &lt;br&gt;
+&lt;br&gt;
+По тем результатам, что доступны мне сейчас (очень предварительно) все работает штатно. У подписчика 720-й регулятор первого поколения (идентифицируется по шине как 72000).&lt;br&gt;
+&lt;br&gt;
+Таким образом, сейчас в программе поддерживаются 2 поколения 720-го. Есть еще 720/3 с идентификатором ctlv3, но его поддержку добавить достаточно легко. &lt;br&gt;
+&lt;br&gt;
+По прошествии некоторого времени и когда у подписчика появится возможность, он подготовит небольшой отчет, который выложит  в комментариях к этому посту. Надеюсь, подписчик будет столь любезен, что ответит на вопросы других подписчиков канала, если таковые появятся.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/159"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Небольшое обновление по программе</title>
+      <link>https://t.me/webcontrol_app/158</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/158</guid>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Небольшое обновление по программе&lt;br&gt;
+&lt;br&gt;
+Для удобства настройки, в некоторых случаях необходимо знать какие адреса получил Webcontrol. Если настроен телеграм-бот, то теперь можно узнать все  IP-адреса, которое получило устройство, отправив боту команду &amp;quot;адрес&amp;quot; или &amp;quot;адреса&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/158_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/158"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Кратко о приложении MyVaillant</title>
+      <link>https://t.me/webcontrol_app/157</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/157</guid>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Кратко о приложении MyVaillant&lt;br&gt;
+&lt;br&gt;
+В выходные дошли руки подключить шлюз и посмотреть новое приложение MyVaillant. И телефон с установленной программой (андроид), и шлюз были подключены без VPN. Весь процесс подключения шлюза (VR900) также проходил без VPN. Подключен был 720 регулятор.&lt;br&gt;
+&lt;br&gt;
+Постараюсь кратко и по возможности беспристрастно оценить приложение.&lt;br&gt;
+Итак: &lt;br&gt;
+&lt;br&gt;
+Плюсы:&lt;br&gt;
+- без вложений (если есть шлюз)&lt;br&gt;
+- родное приложение&lt;br&gt;
+- приложение и шлюз работают без VPN&lt;br&gt;
+- приемлемая скорость обновления параметров&lt;br&gt;
+&lt;br&gt;
+Минусы:&lt;br&gt;
+- никакой гарантии что снова не отключат&lt;br&gt;
+- нет и скорее всего не будет Русского языка (вообще нет, разобрал apk файл для андроид, посмотрел ресурсы) &lt;br&gt;
+- совершенно не понятно, от какого времени данные в приложении&lt;br&gt;
+- нельзя посмотреть / настроить время и дату регулятора&lt;br&gt;
+- крайне бедный набор отображаемых параметров/настроек&lt;br&gt;
+&lt;br&gt;
+Т.е. как решение для пользователей, у которых уже есть шлюз (который можно подключить) и которым вообще ничего не нужно кроме температуры в помещении, на улице и ошибок котла, сойдет.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/157_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/157"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Зарегистрировал свою программу и свое авторство.</title>
+      <link>https://t.me/webcontrol_app/156</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/156</guid>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Зарегистрировал свою программу и свое авторство. &lt;br&gt;
+&lt;br&gt;
+Теперь я не просто широко известный  в весьма узких кругах разработчик весьма специфического ПО, теперь я -   зарегистрированный разработчик и правообладатель этого самого ПО.&lt;br&gt;
+&lt;br&gt;
+Спасибо большое всем, кто так или иначе помогал и помогает мне в развитии программы!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/156_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/156"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Если кратко, то мои предположения таковы: в 720 регуляторе регистр находится в группе регистров о...</title>
+      <link>https://t.me/webcontrol_app/155</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/155</guid>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Если кратко, то мои предположения таковы: в 720 регуляторе регистр находится в группе регистров отопительной зоны, и в случае закрепления за этой зоной самого регулятора VRC720, в нем появляется значение влажности от датчика регулятора. Если за этой зоной закреплен не сам регулятор, а дополнительный прибор управления (VR92), то регулятор сам опрашивает VR92 и хранит у себя значение влажности, которое потом отдает по запросу родному приложению.&lt;br&gt;
+&lt;br&gt;
+В 700-м картина другая.  Регистр для чтения влажности находится по не встречавшемуся ранее мною адресу вне групп регистров отопительных зон и контуров. Информация от Олега косвенно подтверждает мое предположение что 700 сам не запрашивает влажность у VR91, чтобы потом передать ее по запросу приложению, на данный момент, мне вообще непонятно можно ли считать по шине влажность из 91-го напрямую. &lt;br&gt;
+&lt;br&gt;
+Это значит, что в моем приложении для 700-го регулятора влажность будет отображаться только для зоны, закрепленной за самим регулятором. Для зон, закрепленных за VR91 влажность отображаться не будет.  Фактически отображение влажности воздуха будет работать как в родном приложении.&lt;br&gt;
+&lt;br&gt;
+ПОТЕРЯЛО АКТУАЛЬНОСТЬ&lt;br&gt;
+После анализа взаимодействия регулятора VRC700 c VR91 удалось найти и вывести показания влажности для зон, закрепленных за VR91&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/155"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Найден регистр для чтения влажности воздуха в 700-м регуляторе.</title>
+      <link>https://t.me/webcontrol_app/154</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/154</guid>
+      <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Найден регистр для чтения влажности воздуха в 700-м регуляторе.&lt;br&gt;
+&lt;br&gt;
+Благодаря неоценимой помощи подписчика канала Антона, и ценной информации от подписчика канала Олега был найден регистр в VRC700 отвечающий за чтение относительной влажности воздуха, а также прояснена ситуация со странной адресацией этого регистра.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/154_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/154"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Пошаговое описание процесса установки и настройки программы + все инструкции в одном месте:</title>
+      <link>https://t.me/webcontrol_app/152</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/152</guid>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Пошаговое описание процесса установки и настройки программы + все инструкции в одном месте:&lt;br&gt;
+&lt;br&gt;
+https://boosty.to/webcontrol_app/posts/4921dbfc-b06e-4ec1-bae1-1166b2044c2e&lt;br&gt;
+&lt;br&gt;
+а также:&lt;br&gt;
+&lt;br&gt;
+ https://boosty.to/webcontrol_app/posts/53ce344d-06df-4843-a474-9898e77bae6a&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/152"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вопрос к подписчикам</title>
+      <link>https://t.me/webcontrol_app/151</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/151</guid>
+      <pubDate>Fri, 10 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вопрос к подписчикам&lt;br&gt;
+&lt;br&gt;
+Если среди подписчиков есть те, кто настроил приложение MyVaillant, и у которых система на регуляторе VRC700 c несколькими отопительными зонами и есть VR91 привязанный к отопительной зоне – посмотрите пожалуйста, отображается ли в программе влажность помещения для зоны, к которой привязан VR91.&lt;br&gt;
+&lt;br&gt;
+Спасибо!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/151"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Еще несколько видов экранов, показывающих тестирование телеграм-бота.</title>
+      <link>https://t.me/webcontrol_app/149</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/149</guid>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Еще несколько видов экранов, показывающих тестирование телеграм-бота.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/149_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/150_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/149"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по VRC720</title>
+      <link>https://t.me/webcontrol_app/147</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/147</guid>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по VRC720&lt;br&gt;
+&lt;br&gt;
+Фактически вышел на финишную прямую с добавлением поддержки 720 в программу. Из последнего - переписал обработку команд телеграм- бота под новый регулятор. Планирую в середине месяца передать на тестирование первому стороннему пользователю.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/147_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/148_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/147"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по VRC720</title>
+      <link>https://t.me/webcontrol_app/146</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/146</guid>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по VRC720&lt;br&gt;
+&lt;br&gt;
+Вот так выглядят все текущие настройки VRC720 сохраненные в *.txt файл. Чтобы не перегружать шину запросами, процесс сохранения всех настроек занимает 12 минут.&lt;br&gt;
+&lt;br&gt;
+Вообще, функция сохранения всех настроек регулятора не очень нужна рядовому пользователю. Автоматизированной процедуры восстановления настроек  регулятора нет, и  я осознанно делать ее не стану, т.к. вероятность что что-то пойдет не так при восстановлении очень велика.  А вот для понимающих людей восстановить настройки регулятора по этому файлу не составит труда.&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/146_ctlv2_params_2024_04_24_1358_yteybc.txt"&gt;ctlv2_params_2024_04_24_1358_yteybc.txt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/146"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-04-23</title>
+      <link>https://t.me/webcontrol_app/145</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/145</guid>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/145_Screenshot 2024-04-23 at 14-03-53 Webcontrol.png"&gt;Screenshot 2024-04-23 at 14-03-53 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/145"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-04-23</title>
+      <link>https://t.me/webcontrol_app/144</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/144</guid>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/144_Screenshot 2024-04-23 at 14-04-10 Webcontrol.png"&gt;Screenshot 2024-04-23 at 14-04-10 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/144"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-04-23</title>
+      <link>https://t.me/webcontrol_app/143</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/143</guid>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/143_Screenshot 2024-04-23 at 14-02-20 Webcontrol.png"&gt;Screenshot 2024-04-23 at 14-02-20 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/143"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-04-23</title>
+      <link>https://t.me/webcontrol_app/142</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/142</guid>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/142_Screenshot 2024-04-23 at 14-02-42 Webcontrol.png"&gt;Screenshot 2024-04-23 at 14-02-42 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/142"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-04-23</title>
+      <link>https://t.me/webcontrol_app/141</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/141</guid>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/141_Screenshot 2024-04-23 at 14-03-24 Webcontrol.png"&gt;Screenshot 2024-04-23 at 14-03-24 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/141"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по VRC720</title>
+      <link>https://t.me/webcontrol_app/140</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/140</guid>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по VRC720&lt;br&gt;
+&lt;br&gt;
+Завершил очередной этап - управление временными окнами отопления, гвс и циркуляции. Из-за другой структуры команд  почти весь управляющий код пришлось писать заново. Так же как и создавать страницы интерфейса для управления временными окнами отопления.&lt;br&gt;
+&lt;br&gt;
+Как обычно, копии экрана интерфейса прилагаю.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/140"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Заметки на полях</title>
+      <link>https://t.me/webcontrol_app/139</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/139</guid>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Заметки на полях&lt;br&gt;
+&lt;br&gt;
+Мне тут стало интересно, а сколько всего строк кода написано мною в проекте. Я давно как-то  прикидывал и получалось что количество превышает 5 тысяч, а сейчас решил подсчитать точно. &lt;br&gt;
+&lt;br&gt;
+Так вот, на данный момент в проекте всего 25906 строк кода на Perl в 51 скрипте, это я еще не считаю HTML шаблоны интерфейса, где одних файлов 126 штук. Поскольку на каждую ветку регулятора код свой, то не весь код был написан с нуля, часть строк кода для 720 была  скопирована из кода 700, но тем не менее суммарный объем получился совсем немаленький. Вот такая арифметика.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/139"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по VRC720</title>
+      <link>https://t.me/webcontrol_app/135</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/135</guid>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по VRC720&lt;br&gt;
+&lt;br&gt;
+Завершил большой кусок кода  (пришлось писать с нуля), посвященный управлению режимами регулятора высокого уровня. &lt;br&gt;
+&lt;br&gt;
+Много возни было с режимом &amp;quot;отсутствие&amp;quot;, т.к. в 720-м его можно раздельно активировать для каждой зоны. Пришлось придумывать новую логику работы и вид интерфейса. Результат на скриншотах.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/135_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/135"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Для пользователей с заблокированными шлюзами.</title>
+      <link>https://t.me/webcontrol_app/134</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/134</guid>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Для пользователей с заблокированными шлюзами.&lt;br&gt;
+&lt;br&gt;
+Появилась информация от подписчика (за что ему большое спасибо), что в связи с переходом на новое приложение MyVaillant заблокированный шлюз из РФ удалось успешно зарегистрировать заново, и таким образом восстановить удаленное управление через приложение MyVaillant. &lt;br&gt;
+&lt;br&gt;
+При регистрации и во время работы шлюз подключен через VPN с точкой выхода в Европе! &lt;br&gt;
+&lt;br&gt;
+Во время регистрации приложение также должно быть подключено через ВПН  с  адресом той страны, на которую Вы будете регистрировать учетную запись! &lt;br&gt;
+&lt;br&gt;
+В дальнейшем приложение работает без VPN. &lt;br&gt;
+&lt;br&gt;
+Сам не проверял, но по информации пользователя все работает, так что можете попробовать.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/134"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Появилась расшифровка артикулов VRC 720</title>
+      <link>https://t.me/webcontrol_app/133</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/133</guid>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Появилась расшифровка артикулов VRC 720&lt;br&gt;
+&lt;br&gt;
+BE/CH/FR/IT/NL: 0020260913 или 0020260929&lt;br&gt;
+AT/DE: 0020260914&lt;br&gt;
+HU/INT/RO/RU/TR: 0020260915&lt;br&gt;
+DK/NO/PL/SE: 0020260916&lt;br&gt;
+CZ/SI/SK: 0020260919&lt;br&gt;
+INT/UA: 0020260920&lt;br&gt;
+BA/ES/HR/INT/RS/UK: 0020260921&lt;br&gt;
+UK: 0010036819 или 0010036821&lt;br&gt;
+&lt;br&gt;
+Таким образом, артикул не связан с поколением, а определяет регион для продажи в котором предназначен регулятор. Поколение как и в 700 определяется версией железа / прошивки.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/133"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Еще несколько видов страницы "состояние" для 720-го.</title>
+      <link>https://t.me/webcontrol_app/129</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/129</guid>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Еще несколько видов страницы &amp;quot;состояние&amp;quot; для 720-го. &lt;br&gt;
+&lt;br&gt;
+Как можно видеть, тестируются различные режимы работы отопительной зоны.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/129_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/130_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/131_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/132_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/129"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по 720 регулятору</title>
+      <link>https://t.me/webcontrol_app/128</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/128</guid>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по 720 регулятору&lt;br&gt;
+&lt;br&gt;
+Потратил все выходные для того, чтобы начать переписывать управляющий код под новый регулятор. Из-за другой логики работы и управляющих регистров, много кода приходится писать с нуля.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/128_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/128"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вопрос к обладателям VRC720</title>
+      <link>https://t.me/webcontrol_app/127</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/127</guid>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вопрос к обладателям VRC720&lt;br&gt;
+&lt;br&gt;
+У вас также &amp;quot;машинка с турецким акцентом&amp;quot; т.е. у буквы &amp;quot;Ы&amp;quot; нет правой палки? Или это &amp;quot;эксклюзив&amp;quot; 720/2?&lt;br&gt;
+&lt;br&gt;
+Отпишитесь в комментариях.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/127_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/127"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>И еще одно обновление по адаптерам</title>
+      <link>https://t.me/webcontrol_app/126</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/126</guid>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;И еще одно обновление по адаптерам&lt;br&gt;
+&lt;br&gt;
+У [Антона](https://t.me/Patamushta99) есть 9 готовых протестированных плат, т.е. при возникновении потребности адаптеры могут быть собраны очень быстро.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/126"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по адаптерам</title>
+      <link>https://t.me/webcontrol_app/125</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/125</guid>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по адаптерам&lt;br&gt;
+&lt;br&gt;
+[Евгений](https://t.me/mevgen72) постепенно закупает компоненты, необходимые для изготовления 50 адаптеров. По мере поступления запросов будет производить сборку.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/125"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Подключил 720 к своей системе. Пока временно. Посмотрел как работает текущая  конфигурация. (Проч...</title>
+      <link>https://t.me/webcontrol_app/124</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/124</guid>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Подключил 720 к своей системе. Пока временно. Посмотрел как работает текущая  конфигурация. (Прочитал / записал около 10 параметров.) По первому впечатлению - работает)).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/124_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/124"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Кстати, любопытная деталь: входящий в комплект 720-го уличный датчик  имеет в своем составе прием...</title>
+      <link>https://t.me/webcontrol_app/123</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/123</guid>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Кстати, любопытная деталь: входящий в комплект 720-го уличный датчик  имеет в своем составе приемник радиосигналов точного времени DCF77. Посмотрите на ферритовую антенну на плате (горизонтальный черный цилиндр с намотанной слева катушкой). И подключается этот датчик 3-мя проводами, тогда как обычный 2-мя. Для нас с вами  пользы от этого нет. Во-первых, при подключении клеммы DCF возможно перестанет вручную выставляться время/дата, а во-вторых сигнал зашумлен и слабоват уже в районе Москвы, а дальше на восток его уровень еще больше падает (передатчик в Германии). Во-вторых европейцы переходят на летнее /зимнее время а мы нет, так что даже при условии что удалось поймать сигнал, часы могут показывать неправильное время.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/123_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/123"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по добавлению поддержки VRC720</title>
+      <link>https://t.me/webcontrol_app/122</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/122</guid>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по добавлению поддержки VRC720&lt;br&gt;
+&lt;br&gt;
+Итак, благодаря упорству и реальной поддержке ВСЕГО ОДНОГО подписчика канала (это я сейчас про добавление поддержки 720-го регулятора говорю) и [хорошим людям из Питера](https://t.me/teplon98) у меня появился регулятор VRC720/2, наличие которого необходимо для добавления его поддержки в программе, т.к. необходимо тщательное тестирование управляющего кода. &lt;br&gt;
+&lt;br&gt;
+В настоящий момент мною завершен анализ некоторых частей конфигурации для этого регулятора: глобальные и зональные режимы работы регулятора (+ их иерархия и взаимодействие), параметры управления отопительными зонами (различные температуры и режимы) и запись / чтение временных окон для отопления.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/122"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Краткое описание возможностей программы в виде pdf файла.</title>
+      <link>https://t.me/webcontrol_app/121</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/121</guid>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Краткое описание возможностей программы в виде pdf файла.&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/121_Краткое_описание_программы_Webcontrol.pdf"&gt;Краткое_описание_программы_Webcontrol.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/121"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Для тех, кому необходим ebus адаптер](https://t.me/webcontrol_app/81) текущее (05.03.24) состоян...</title>
+      <link>https://t.me/webcontrol_app/120</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/120</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;[Для тех, кому необходим ebus адаптер](https://t.me/webcontrol_app/81) текущее (05.03.24) состояние следующее:&lt;br&gt;
+&lt;br&gt;
+- У [Евгения](https://t.me/mevgen72) есть 1 адаптер готовый, 2 спаянных но без корпуса, ещё 3 в несобранном виде.&lt;br&gt;
+- У [Антона](https://t.me/Patamushta99) 10 адаптеров в самом начале процесса сборки.&lt;br&gt;
+- У [Константина](https://t.me/+feL6JaACwl4xYjEy) идет набор желающих для заказа минимальной партии (5штук).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/120"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/119</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/119</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/119_Screenshot 2024-03-05 at 15-34-56 Webcontrol.png"&gt;Screenshot 2024-03-05 at 15-34-56 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/119"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/118</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/118</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/118_Screenshot 2024-03-05 at 15-34-41 Webcontrol.png"&gt;Screenshot 2024-03-05 at 15-34-41 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/118"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/117</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/117</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/117_Screenshot 2024-03-05 at 15-34-29 Webcontrol.png"&gt;Screenshot 2024-03-05 at 15-34-29 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/117"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/116</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/116</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/116_Screenshot 2024-03-05 at 15-34-13 Webcontrol.png"&gt;Screenshot 2024-03-05 at 15-34-13 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/116"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/115</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/115</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/115_Screenshot 2024-03-05 at 15-32-28 Webcontrol.png"&gt;Screenshot 2024-03-05 at 15-32-28 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/115"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/114</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/114</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/114_Screenshot 2024-03-05 at 15-32-17 Webcontrol.png"&gt;Screenshot 2024-03-05 at 15-32-17 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/114"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/113</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/113</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/113_bot_contact_management.png"&gt;bot_contact_management.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/113"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-03-05</title>
+      <link>https://t.me/webcontrol_app/112</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/112</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/112_algo_reference.jpg"&gt;algo_reference.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/112"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Управление системой при помощи внешнего контакта – результаты.</title>
+      <link>https://t.me/webcontrol_app/111</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/111</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Управление системой при помощи внешнего контакта – результаты.&lt;br&gt;
+&lt;br&gt;
+Не так давно в рамках своей программы[ я взялся решить задачу по выключению приготовления горячей воды при падении давления в водопроводе](https://t.me/webcontrol_app/98).&lt;br&gt;
+Задача на первый взгляд не казалась сложной, но ее решение вылилось в три недели, несколько сотен строк кода и главное – муторного анализа взаимодействия регулятора и управляющего контакта и построения алгоритма управления. Дело в том, что управлять через регулятор включением / выключением приготовления ГВ не просто т. к. надо учитывать 3 глобальных режима работы регулятора и еще 6 зональных, и их возможные комбинации + непосредственно режим работы ГВС т.к. все это влияет на то будет ли в результате включено ГВС или нет. Но все же справился. На приложенных скриншотах различные страницы интерфейса, связанные с управлением при помощи внешнего контакта. Также тестирование уведомлений от Телеграм-бота и рабочие черновики с алгоритмом на 3 страницы по обработке комбинаций состояния регулятора / состояния контакта.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/111"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Для новых подписчиков канала</title>
+      <link>https://t.me/webcontrol_app/109</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/109</guid>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Для новых подписчиков канала&lt;br&gt;
+&lt;br&gt;
+Для новых подписчиков канала, и тех кому сложно прочитать все сообщения здесь, а  также для тех у кого есть вопросы для чего нужна программа и как ее поставить и что для этого нужно, вот ссылка на пост где я постарался кратко все изложить: https://boosty.to/webcontrol_app/posts/4921dbfc-b06e-4ec1-bae1-1166b2044c2e Там же,  в конце поста,  есть ссылка на следующий пост с инструкциями.  Все это есть  и здесь, но  в менее упорядоченной форме.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/109"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Прислал один из пользователей программы, обладатель GalaxyWatch3.</title>
+      <link>https://t.me/webcontrol_app/106</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/106</guid>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Прислал один из пользователей программы, обладатель GalaxyWatch3.&lt;br&gt;
+&lt;br&gt;
+Как мне сообщил пользователь, управление работает. Способ, конечно, немного экзотический, но вполне работоспособный.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/106_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/107_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/108_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/106"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Способ как выяснить какое у Вас поколение 720 регулятора.</title>
+      <link>https://t.me/webcontrol_app/104</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/104</guid>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Способ как выяснить какое у Вас поколение 720 регулятора.&lt;br&gt;
+&lt;br&gt;
+См. коробку от регулятора, поколение указывается через косую черту.&lt;br&gt;
+Если косой черты нет, то это первое поколение. &lt;br&gt;
+т.е.&lt;br&gt;
+VRC720 - первое поколение&lt;br&gt;
+VRC720/2 - второе поколение&lt;br&gt;
+и т.д.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/104_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/105_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/104"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Важное объявление по поддержке регулятора VRC720.</title>
+      <link>https://t.me/webcontrol_app/103</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/103</guid>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Важное объявление по поддержке регулятора VRC720.&lt;br&gt;
+&lt;br&gt;
+Несмотря на пассивность 99,9% подписчиков канала и отсутствие поддержки с их стороны, я все-таки начал добавление поддержки 720 регулятора в программу. &lt;br&gt;
+&lt;br&gt;
+Пока это первые шаги по анализу и доработке конфигурации EBUSD для этого регулятора. Только после этого имеет смысл писать код в программе. &lt;br&gt;
+&lt;br&gt;
+Как быстро будет реализована поддержка я не знаю и давать прогнозы тоже не стану. По мере продвижения разработки буду публиковать краткие сводки.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/103"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-02-14</title>
+      <link>https://t.me/webcontrol_app/102</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/102</guid>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/102_Screenshot 2024-02-14 at 13-35-48 Webcontrol.png"&gt;Screenshot 2024-02-14 at 13-35-48 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/102"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-02-14</title>
+      <link>https://t.me/webcontrol_app/101</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/101</guid>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/101_Screenshot 2024-02-14 at 13-35-32 Webcontrol.png"&gt;Screenshot 2024-02-14 at 13-35-32 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/101"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-02-14</title>
+      <link>https://t.me/webcontrol_app/100</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/100</guid>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/100_Screenshot 2024-02-14 at 13-35-14 Webcontrol.png"&gt;Screenshot 2024-02-14 at 13-35-14 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/100"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление от 2024-02-14</title>
+      <link>https://t.me/webcontrol_app/99</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/99</guid>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/99_usb-gpio-extender.pdf"&gt;usb-gpio-extender.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/99"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Анонс: добавление управления системой при помощи внешнего контакта.</title>
+      <link>https://t.me/webcontrol_app/98</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/98</guid>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Анонс: добавление управления системой при помощи внешнего контакта.&lt;br&gt;
+&lt;br&gt;
+Решил добавить возможность, которая вряд ли будет сильно востребована пользователями, но поскольку нужна мне, так почему бы не сделать?&lt;br&gt;
+&lt;br&gt;
+Задача: при падении давления в водопроводе выключать режим приготовления горячей воды (чтобы не греть бойлер без давления и не гонять циркуляционный насос без воды т.к. у меня управляемая оборудованием Vaillant циркуляция ГВС), и затем восстанавливать состояние режима ГВС (запоминается состояние на момент замыкания управляющего контакта) при поднятии давления в водопроводе.&lt;br&gt;
+&lt;br&gt;
+Для того чтобы считывать давление в водопроводе используем реле давления, а для мониторинга состояния его контактов нам понадобится устройство, подключаемое к компьютеру и позволяющее считывать состояние контактов.&lt;br&gt;
+&lt;br&gt;
+Совершенно случайно нашел такое устройство за 850рублей (по состоянию на февраль 2024) у отечественных разработчиков: [USB GPIO Extender](https://open-dev.ru/interface/tproduct/179899148-603994150506-usb-gpio-extender). Данное устройство подключается по USB и позволяет отслеживать состояние 5 дискретных входов (замкнут/разомкнут), а также имеет 5 дискретных выходов, которые можно программно включать/выключать (нам пока не надо, но потенциал для реализации – это хорошо).&lt;br&gt;
+&lt;br&gt;
+Поддержал отечественных разработчиков, купил это устройство и после ряда экспериментов добавил его поддержку в программе. Показываю рабочие скриншоты, из того что сделано: можно назначить действие (из списка доступных) выполняемое при размыкании /замыкании управляющего контакта. Состояние контактов опрашивается с той же периодичностью что и отправка уведомлений, и обработка команд телеграм-бота (сейчас - раз в 10минут). Сейчас работаю над логикой работы этой функции при нештатных ситуациях: невозможности считать состояние контакта и т.д.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/98"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Благодаря обратной связи, полученной от одного из пользователей был немного доработан ответ телег...</title>
+      <link>https://t.me/webcontrol_app/97</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/97</guid>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Благодаря обратной связи, полученной от одного из пользователей был немного доработан ответ телеграм-бота на команду &amp;quot;статус&amp;quot;. &lt;br&gt;
+&lt;br&gt;
+В ситуации когда отопительная зона не привязана к регулятору или дополнительному устройству управления не отображалась желаемая температура отопительной зоны (воздух). Теперь отображается.&lt;br&gt;
+&lt;br&gt;
+На мой взгляд, смысл отображаения этой настройки сомнителен, т.к. отопительная зона не знает какая у нее текущая температура (нет привязки=нет считывания температуры воздуха отопительной зоны), и поэтому  эта настройка скорее всего не используется в такой конфигурации, поскольку температура зоны определяется уличным датчиком и отопительной кривой соответствующего контура.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/97_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/97"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Сейчас тестирую новый образ системы где предпринял дополнительные меры по предотвращению подобных...</title>
+      <link>https://t.me/webcontrol_app/96</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/96</guid>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Сейчас тестирую новый образ системы где предпринял дополнительные меры по предотвращению подобных ситуации. По результатам тестирования буду решать заменять ли текущий образ на новый.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/96"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Добавил в программу полезную опцию для пользователей, которые имеет привычку благополучно забыват...</title>
+      <link>https://t.me/webcontrol_app/95</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/95</guid>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Добавил в программу полезную опцию для пользователей, которые имеет привычку благополучно забывать пароли.  Теперь, помимо восстановления пароля через код восстановления, можно (имея физический доступ к мини-ПК) восстановить пароль для системного пользователя путем включения и отключения ebus адаптера, следуя подсказкам в веб интерфейсе (см. изображение). Функция по умолчанию отключена.&lt;br&gt;
+&lt;br&gt;
+Войдет в следующее обновление.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/95_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/95"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>По случайным зависаниям.</title>
+      <link>https://t.me/webcontrol_app/94</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/94</guid>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;По случайным зависаниям.&lt;br&gt;
+&lt;br&gt;
+Благодаря пользователю удалось понять причину зависания в его случае. Как видно из сообщений, причиной &amp;quot;зависания&amp;quot; стала ошибка  записи в emmc, после чего файловая система ОС перешла в режим &amp;quot;только для чтения&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/94_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/94"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление по ситуации со случайными зависаниями мини-ПК</title>
+      <link>https://t.me/webcontrol_app/93</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/93</guid>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление по ситуации со случайными зависаниями мини-ПК&lt;br&gt;
+&lt;br&gt;
+Итак, ситуация со случайными зависаниями мини ПК получила свое развитие. После первых сообщений и предпринятых мною мер по устранению потенциальных причин зависания (уменьшение объемов записи в eMMC) сообщений о новых случаях зависания не поступало. Однако, недавно я получил сообщения от двух пользователей о зависании и меня насторожила похожая последовательность действий, приводящая к зависанию, а именно: после продолжительной стабильной работы мини-пк (в одном случае – месяц, в другом около недели) мини ПК был штатно выключен кратковременным нажатием на кнопку (штатное выключение ОС), после чего через некоторое время был включен, и затем в течение первых суток работы после включения завис.&lt;br&gt;
+&lt;br&gt;
+Подобное поведение мне непонятно. Оно точно не может быть связано с эффектами “утечки памяти”, т.к. они проявляются при длительной работе. Маловероятно, что это связано с ошибками ОЗУ, т.к. эти ошибки также проявляют себя при длительной работе, чего не наблюдается. Это не может быть драйвер wifi т.к. у одного из пользователей этот модуль (iwlwifi) не был загружен в ядро.&lt;br&gt;
+&lt;br&gt;
+Вместе с тем, судя по отсутствию многочисленных жалоб от пользователей, эта проблема не носит массовый характер, и хотелось бы составить более полную картину происходящего.&lt;br&gt;
+&lt;br&gt;
+Для этого все кто пользуется программой напишите в комментариях к этому сообщению следующую информацию:&lt;br&gt;
+- Модель мини-ПК с наклейки внизу устройства должна выглядеть примерно так:&lt;br&gt;
+ T4PRO-A-464KICW64PRO-B&lt;br&gt;
+- Текущее время непрерывной работы в днях (можно посмотреть в настройках-инструменты разработчика)&lt;br&gt;
+- Используете ли Вы wifi подключение &lt;br&gt;
+&lt;br&gt;
+Собрав эту информацию можно хотя бы понять связаны ли зависания с какой-то конкретной модификацией T4PRO или нет.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/93"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Обновление программы до версии  2024.01.19](https://boosty.to/webcontrol_app/posts/07c1a5eb-7627...</title>
+      <link>https://t.me/webcontrol_app/92</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/92</guid>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;[Обновление программы до версии  2024.01.19](https://boosty.to/webcontrol_app/posts/07c1a5eb-7627-40c2-a3c5-f22ccdadd509) &lt;br&gt;
+([список изменений](https://t.me/webcontrol_app/29))&lt;br&gt;
+&lt;br&gt;
+Из основного - расширено количество поддерживаемых отопительных зон и контуров (с 3 до 5),  добавлена возможность отправки значений параметров системы на Narodmon и дополнена база автоматически определяемых теплогенераторов. &lt;br&gt;
+&lt;br&gt;
+ВНИМАНИЕ!&lt;br&gt;
+Для правильного применения данного обновления, обновление кода необходимо установить два раза подряд!&lt;br&gt;
+&lt;br&gt;
+Для избежания ошибок при попытке чтения параметров 4 и 5 зон / контуров,  рекомендуется установить обновление конфигурации  EBUSD, добавляющее поддержку этих зон / контуров (входит в комплект обновления).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/92"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Для чего в программу была добавлена поддержка Narodmon.ru?</title>
+      <link>https://t.me/webcontrol_app/91</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/91</guid>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Для чего в программу была добавлена поддержка Narodmon.ru?&lt;br&gt;
+&lt;br&gt;
+Казалось бы, какая связь между управлением системой отопления и сервисом отображения погоды на карте (а именно так большинство и воспринимает этот сервис).&lt;br&gt;
+&lt;br&gt;
+На самом деле сервис Narodmon, помимо вывода погоды на улице имеет весьма обширный функционал – в частности, на него можно передавать различные данные для последующего построения графиков и анализа (при этом необязательно разрешать сторонний доступ к этим данным) . Делать это на устройстве я не хочу т.к. встроенная emmc память (используется в качестве &amp;quot;жесткого диска&amp;quot;) при таком использовании будет деградировать быстрее, а с учетом того что она распаяна на материнской плате, ее замена – хлопотное и дорогое занятие. Да и не нужны графики подавляющему большинству пользователей программы.&lt;br&gt;
+&lt;br&gt;
+Теперь мы подходим, к основной причине добавления поддержки сервиса Narodmon. Дело в том, что, реализуя концепцию полной независимости устройства, и подключения внешних сервисов исключительно по необходимости, желательно добавить механизм, АВТОМАТИЧЕСКИ уведомляющий пользователя о том, что с устройством что-то случилось. Без внешнего сервиса понять, что с устройством Webcontrol что-то не так можно лишь по косвенным признакам (телеграм-бот не отвечает, не активен VPN-туннель от устройства и т.д.). Используя же функцию уведомления от Narodmon (о том, что устройство перестало передавать данные), мы фактически добавляем еще один уровень безопасности, который позволяет более оперативно реагировать, если с устройством что-то не так.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/91"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Благодаря обратной связи, полученной от подписчика канала Антона удалось улучшить автоматическое ...</title>
+      <link>https://t.me/webcontrol_app/90</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/90</guid>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Благодаря обратной связи, полученной от подписчика канала Антона удалось улучшить автоматическое опознавание модели теплогенератора. В базу данных программы добавлены модели atmoTec и turboTec 3-го поколения (артикулы представлены на рисунке).  Будет включено в следующее обновление ПО.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/90_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/90"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Совсем вылетело из головы.</title>
+      <link>https://t.me/webcontrol_app/89</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/89</guid>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Совсем вылетело из головы.&lt;br&gt;
+&lt;br&gt;
+В одном из прошлых обновлений добавил в веб-интерфейс отображение состояния функции защиты от легионелл. Теперь эта информация также добавлена в ответ бота на команду &amp;quot;статус&amp;quot; (подраздел &amp;quot;Приготовление Горячей воды&amp;quot;).&lt;br&gt;
+&lt;br&gt;
+Войдет в следующее обновление на Boosty.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/89_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/89"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Полку людей, готовых помочь остальным с изготовлением адаптера прибыло!</title>
+      <link>https://t.me/webcontrol_app/88</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/88</guid>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Полку людей, готовых помочь остальным с изготовлением адаптера прибыло!&lt;br&gt;
+&lt;br&gt;
+Один из первых подписчиков канала Антон готов оказать желающим помощь в изготовлении адаптера. Ниже более подробная информация. Также добавил эту информацию в [закрепленном посте](https://t.me/webcontrol_app/81), для тех, кто желает купить готовый адаптер. &lt;br&gt;
+&lt;br&gt;
+Антон (Московский регион)&lt;br&gt;
+Телеграм: [https://t.me/Patamushta99](https://t.me/Patamushta99)&lt;br&gt;
+&lt;br&gt;
+По состоянию на 16.01.2024 у Антона есть 4 готовые и оттестированные платы адаптеров, и он готов достаточно быстро собрать желающим 4 готовых адаптера в корпусе.  Также Антон готов отправить адаптеры по России за счет заказчика. Изготовление новой партии адаптеров (5 штук) не является для Антона приоритетным, однако он готов рассмотреть такую возможность, если будут обращения.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/88"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Анонс</title>
+      <link>https://t.me/webcontrol_app/87</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/87</guid>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Анонс&lt;br&gt;
+&lt;br&gt;
+Сегодня доделал и теперь тестирую передачу показаний системы на сервис Narodmon.ru Позволяет отправлять до 5 любых доступных параметров системы. Для наиболее распространенных параметров (температура улицы, температуры зон и контуров и т.д.) сделаны шаблоны настроек для упрощения настройки отправки.&lt;br&gt;
+&lt;br&gt;
+По завершению тестирования, будет выпущено обновление, включающее этот функционал.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/87_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/87"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Сегодня прислал пользователь программы.</title>
+      <link>https://t.me/webcontrol_app/86</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/86</guid>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Сегодня прислал пользователь программы.&lt;br&gt;
+&lt;br&gt;
+Ну что сказать - я искренне рад что моя программа помогает людям сохранить свой дом (в данном случае - как только котел встал в ошибку, пользователю пришло уведомление и он своевременно перезапустил котел).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/86_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/86"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Расширение количества поддерживаемых отопительных зон и контуров.</title>
+      <link>https://t.me/webcontrol_app/85</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/85</guid>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Расширение количества поддерживаемых отопительных зон и контуров.&lt;br&gt;
+&lt;br&gt;
+Недавно, один из подписчиков использующий VRC700/6 столкнулся с ситуацией, когда в программе  потребовалось настроить 4-ю отопительную зону и посмотреть параметры соответствующего контура. &lt;br&gt;
+&lt;br&gt;
+Во-первых, конфигурация на github поддерживает только 3 зоны, поэтому пришлось методом интерполяции подбирать адреса переменных отвечающих за 4 и 5 зону и 4 и 5 контур (а их там немало).&lt;br&gt;
+&lt;br&gt;
+А во-вторых пришлось обновлять код в программе для поддержки этих двух зон и контуров. &lt;br&gt;
+&lt;br&gt;
+Сегодня подписчик проверил на своей системе - все корректно читается, так что программа теперь поддерживает до 5 отопительных зон и до 5 контуров.&lt;br&gt;
+&lt;br&gt;
+Обновление будет доступно, скорее всего, в следующем году на Boosty.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/85_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/85"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Владельцы 720 регуляторов, а вы правда желаете увидеть его поддержку в программе? Судя по тому чт...</title>
+      <link>https://t.me/webcontrol_app/84</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/84</guid>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Владельцы 720 регуляторов, а вы правда желаете увидеть его поддержку в программе? Судя по тому что я вижу - меня терзают смутные сомнения.&lt;br&gt;
+&lt;br&gt;
+Без регулятора сделать разработку невозможно, а у меня совершенно нет желания еще и покупать за свои деньги этот регулятор.&lt;br&gt;
+&lt;br&gt;
+Да, жизнь к вам несправдлива - в отличие от владельцев 700-х регуляторов, которые получили все считай забесплатно. Но, чтобы хоть чего-нибудь достичь, надо, наверное, хоть что-нибудь для этого сделать?&lt;br&gt;
+&lt;br&gt;
+Сбор на покупку регулятора: https://boosty.to/webcontrol_app/about&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/84_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/84"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Заметки для тех, кто делает свое решение на основе EBUSD.</title>
+      <link>https://t.me/webcontrol_app/83</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/83</guid>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Заметки для тех, кто делает свое решение на основе EBUSD.&lt;br&gt;
+&lt;br&gt;
+По возможности, всегда используйте локальную конфигурацию EBUSD. Если не хотите веселых приключений - не обновляйте конфигурацию из репозитория [ebusd-configuration] автоматически. Если хватает знаний - сравнивайте ключевые файлы конфигурации для просмотра изменений. Судя по тому, что там творится, системного подхода там нет, каждый предлагает кусок, который у него работает на его железе, но в ситуации, когда в нескольких конфигурациях задействован общий шаблон типа переменных, это может привести к тому что ранее работающая у Вас конфигурация после обновления может просто перестать работать.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/83"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Для тех, кто хочет купить готовый адаптер.</title>
+      <link>https://t.me/webcontrol_app/81</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/81</guid>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Для тех, кто хочет купить готовый адаптер.&lt;br&gt;
+&lt;br&gt;
+Если Вы хотите использовать программу, но Вас останавливает сложность заказа и сборки адаптера - представляю Вам подписчиков, которые взвалили на себя этот тяжкий труд.&lt;br&gt;
+Вы можете обратится к ним напрямую и договориться об изготовлении адаптера.&lt;br&gt;
+&lt;br&gt;
+Итак: &lt;br&gt;
+&lt;br&gt;
+Евгений (Тюмень) &lt;br&gt;
+Телеграм: [https://t.me/mevgen72](https://t.me/mevgen72)&lt;br&gt;
+&lt;br&gt;
+На момент размещения данного поста у Евгения есть в наличии 2 готовых адаптера. Есть возможность собрать ещё 5 адаптеров в ближайшее время (в течении недели). Можно заказать как плату адаптера шины, так и адаптер целиком (и даже напечатать корпус). &lt;br&gt;
+Также отправляет адаптеры по РОССИИ (за счет заказчика). Для производства следующей партии адаптеров (от 5 штук) сроки приблизительно такие же (2-3 месяца).&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+Антон (Московский регион)&lt;br&gt;
+Телеграм: [https://t.me/Patamushta99](https://t.me/Patamushta99)&lt;br&gt;
+&lt;br&gt;
+У Антона есть в наличии готовые и оттестированные платы адаптеров, а также готовые адаптеры в корпусе.  Антон готов отправить адаптеры по России за счет заказчика.&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+Константин (Московский регион)&lt;br&gt;
+[https://t.me/+feL6JaACwl4xYjEy](https://t.me/+feL6JaACwl4xYjEy)&lt;br&gt;
+&lt;br&gt;
+Собирает заказы и затем заказывает у контрактного производителя минимально возможную партию платы адаптера шины (5 штук).&lt;br&gt;
+Вы оплачиваете заказ только после того как набирается минимальное количество желающих заказать адаптер.&lt;br&gt;
+Также Константин предоставляет счет от контрактного производителя. Предоплата 100% после получения счета от контрактного производителя.&lt;br&gt;
+Сроки изготовления зависят от наличия и сроков заказа компонентов и загруженности контрактного производителя и составляют в среднем 2-3 месяца, т.е. Вы должны понимать что мгновенно Вы адаптер не получите.&lt;br&gt;
+Поскольку адаптер состоит из двух плат: преобразователя USB-RS232 (готовая плата, покупается, например, в Чип и Дипе) и платы собственно адаптера шины (ebus) - та которая заказывается, то при размещении заказа Вы должны уточнить нужна ли Вам только плата адаптера шины, или Вам необходим адаптер целиком.&lt;br&gt;
+За разумные деньги Константин готов собрать и протестировать у себя готовый адаптер. Отправка по РФ СДЭКОМ (за счет заказчика).&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+Хотелось бы ОСОБЕННО обратить внимание, что изготовление адаптеров при таких объемах - это вовсе не про заработок, люди тратят свое время чтобы помочь другим в изготовлении адаптера, за что они должны быть вознаграждены в разумных пределах. Также хочется отметить, что я никак финансово не связан с людьми взявшими на себя изготовление адаптеров, однако благодарен им, так как они делают использование программы доступнее.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/81"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Поскольку у ряда пользователей  возникли сложности при настройке VPN на телефоне с android, пришл...</title>
+      <link>https://t.me/webcontrol_app/80</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/80</guid>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Поскольку у ряда пользователей  возникли сложности при настройке VPN на телефоне с android, пришлось сделать короткую инструкцию по установке и настройке SSTP VPN клиента для удаленного доступа к интерфейсу программы через VPN. Эта инструкция дополняет [ранее размещенную инструкцию](https://t.me/webcontrol_app/78) по организации удаленного доступа при помощи сервиса VPNKI.ru&lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/80_Open_SSTP_client_android_VPNKI.pdf"&gt;Open_SSTP_client_android_VPNKI.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/80"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление программы [до версии 2023.12.12](https://boosty.to/webcontrol_app/posts/d169f88a-bb34-...</title>
+      <link>https://t.me/webcontrol_app/79</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/79</guid>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление программы [до версии 2023.12.12](https://boosty.to/webcontrol_app/posts/d169f88a-bb34-4f44-aca8-913c5c613629)&lt;br&gt;
+добавляет отображение состояния функции защиты от легионелл.&lt;br&gt;
+Требует установки [обновления конфигурации EBUSD 2023.12.08](https://t.me/webcontrol_app/74) &lt;br&gt;
+&lt;br&gt;
+[Список изменений](https://t.me/webcontrol_app/29)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/79"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Наконец-то написал инструкцию по настройке удаленного доступа к Web-Интерфейсу Webcontrol при пом...</title>
+      <link>https://t.me/webcontrol_app/78</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/78</guid>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Наконец-то написал инструкцию по настройке удаленного доступа к Web-Интерфейсу Webcontrol при помощи встроенного VPN-клиента.&lt;br&gt;
+&lt;br&gt;
+Данная инструкция актуальна для тех, у кого НЕТ ТЕХНИЧЕСКОЙ ВОЗМОЖНОСТИ самостоятельно организовать удаленный доступ  к устройству Webcontrol.&lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/78_VPN_client_config_VPNKI.pdf"&gt;VPN_client_config_VPNKI.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/78"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Какие бывают разновидности VRC720</title>
+      <link>https://t.me/webcontrol_app/77</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/77</guid>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Какие бывают разновидности VRC720 &lt;br&gt;
+(c проводным подключением - не по радиоканалу)&lt;br&gt;
+&lt;br&gt;
+(указаны идентификаторы устройств, встречающиеся у пользователей ebusd на github):&lt;br&gt;
+ID=72000 - судя по всему первое поколение VRC720. упоминается всего один раз&lt;br&gt;
+ID=CTLV2 - второе поколение т.е. VRC720/2 - самое распространенное устройство (часто встречается у пользователей)&lt;br&gt;
+ID=CTLV3 - третье поколение т.е. VRC720/3 - упоминается всего один раз&lt;br&gt;
+&lt;br&gt;
+для справки&lt;br&gt;
+ID=CTLV0 - это VRT380 - по сути урезанная версия VRC720&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/77"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Из приятных мелочей: поскольку ранее я нашел [элементы конфигурации VRC 700, связанные с функцией...</title>
+      <link>https://t.me/webcontrol_app/76</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/76</guid>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Из приятных мелочей: поскольку ранее я нашел [элементы конфигурации VRC 700, связанные с функцией защиты от легионелл](https://t.me/webcontrol_app/74), то глупо было бы не добавить в программу отображение состояния этой функции, что и было мною добавлено на страницу &amp;quot;Состояние&amp;quot; - &amp;quot;Управление приготовлением горячей воды&amp;quot;. Появится в следующей версии на Boosty.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/76_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/76"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Обновление конфигурации EBUSD 2023.12.08](https://boosty.to/webcontrol_app/posts/9d4bb7e0-610c-4...</title>
+      <link>https://t.me/webcontrol_app/74</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/74</guid>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;[Обновление конфигурации EBUSD 2023.12.08](https://boosty.to/webcontrol_app/posts/9d4bb7e0-610c-4c0b-9724-f0a2d4765a66)&lt;br&gt;
+Обновлена конфигурация VRC700 в которую добавлены следующие параметры:&lt;br&gt;
+HwcLegionellaTime - время запуска функции защиты от легионелл&lt;br&gt;
+HwcLegionellaDay - расписание выполнения функции защиты от легионелл&lt;br&gt;
+OffsetOutsideTemp - сдвиг НТ (корректировка показаний датчика наружной температуры воздуха)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/74"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновление программы [до версии 2023.12.08](https://boosty.to/webcontrol_app/posts/cf5e6dcf-b35b-...</title>
+      <link>https://t.me/webcontrol_app/73</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/73</guid>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновление программы [до версии 2023.12.08](https://boosty.to/webcontrol_app/posts/cf5e6dcf-b35b-402a-9453-9e151c6b1996)&lt;br&gt;
+добавляет команду Телеграм бота &amp;quot;[параметры](https://t.me/webcontrol_app/69)&amp;quot;.[&lt;br&gt;
+&lt;br&gt;
+](https://t.me/webcontrol_app/66)[Список изменений](https://t.me/webcontrol_app/29)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/73"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Как ранее было анонсировано, все обновления кода программы и конфигурации EBUSD будут доступны по...</title>
+      <link>https://t.me/webcontrol_app/72</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/72</guid>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Как ранее было анонсировано, все обновления кода программы и конфигурации EBUSD будут доступны пользователям, которые сделали добровольные пожертвования на развитие программы. Так вот, я [сделал страницу на сервисе Boosty](https://boosty.to/webcontrol_app/about), где желающие  могут пожертвовать определенную сумму, поддержав развитие программы и скачать обновления. Сумма пожертвований пока фиксированная.&lt;br&gt;
+&lt;br&gt;
+Анонсы обновлений будут выходить здесь  с  прямой ссылкой на посты в Boosty.&lt;br&gt;
+Список изменений также будет обновляться и здесь и на Boosty.&lt;br&gt;
+&lt;br&gt;
+По поддержке 720 регулятора: добавление поддержки завершено, проходит тестирование.&lt;br&gt;
+&lt;br&gt;
+СООБЩЕНИЕ ПОТЕРЯЛО АКТУАЛЬНОСТЬ.&lt;br&gt;
+Обновление теперь происходит через интернет. На Boosty  размещен только установочный образ&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/72"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Обновил [образ программы](https://t.me/webcontrol_app/13) до версии 2023.11.26. Эта версия прежде...</title>
+      <link>https://t.me/webcontrol_app/71</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/71</guid>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Обновил [образ программы](https://t.me/webcontrol_app/13) до версии 2023.11.26. Эта версия прежде всего решает задачу уменьшения объемов записи в eMMC  (что должно увеличить ее срок службы и повысить надежность работы системы). Как вы понимаете, задача решается путем изменения настроек самой ОС, поэтому обновление и вышло в виде образа. Обновление кода добавляет одну ссылку в интерфейсе и все. Никаких изменений кода это обновление не содержит. &lt;br&gt;
+&lt;br&gt;
+[Список изменений](https://t.me/webcontrol_app/29)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/71"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Уважаемые пользователи!</title>
+      <link>https://t.me/webcontrol_app/70</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/70</guid>
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Уважаемые пользователи!&lt;br&gt;
+&lt;br&gt;
+Посмотрев на проделанную мною огромную работу и текущий функционал программы, я пришел к выводу, что задача-минимум по обеспечению БЕСПЛАТНОЙ ПОЛНОФУНКЦИОНАЛЬНОЙ замены удаленного управления Valliant (по крайней мере для регулятора VRC700) мною выполнена  &lt;br&gt;
+(да что там говорить - такого уровня решения, использующего родной регулятор, на данный момент нет вообще ни у кого).&lt;br&gt;
+&lt;br&gt;
+В связи с этим я более не стану выкладывать в открытый доступ обновления, расширяющие функционал ПО, т.к. это во многом обесценивает мои усилия по его развитию. В какой форме будут предлагаться будущие обновления как кода, так и базы ebusd я еще не решил. Возможно, доступ к скачиванию будет обеспечиваться после пожертвования определенной суммы, таким образом, пользователи жертвующие на развитие ПО получат возможность использовать расширенный функционал программы. &lt;br&gt;
+&lt;br&gt;
+Тем не менее, я буду обновлять общедоступную версию с точки зрения улучшения надежности ее работы и исправления ошибок, если таковые обнаружатся. Инструкции по настройке останутся в открытом доступе и, надеюсь, будут пополняться.&lt;br&gt;
+&lt;br&gt;
+ОБНОВЛЕНО: информация устарела. В настоящий момент ознакомительная версия не имеет ограничений по функционалу, а имеет ограничение по количеству отображаемых зон/контуров.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/70"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>В телеграм-бот добавлена команда "параметры" выводящая информацию о параметрах системы аналогичну...</title>
+      <link>https://t.me/webcontrol_app/69</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/69</guid>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;В телеграм-бот добавлена команда &amp;quot;параметры&amp;quot; выводящая информацию о параметрах системы аналогичную той, что представлена в веб-интерфейсе программы на странице &amp;quot;Параметры&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/69_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/69"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Удалось обнаружить адреса еще для 3 параметров конфигурации VRC700:</title>
+      <link>https://t.me/webcontrol_app/68</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/68</guid>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Удалось обнаружить адреса еще для 3 параметров конфигурации VRC700:&lt;br&gt;
+Сдвиг датчика наружной температуры&lt;br&gt;
+Защита от легионелл день&lt;br&gt;
+Защита от легионелл время&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/68_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/68"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Т.к. есть предположение что подобные ситуации возникают при взаимодействии системы с eMMC памятью...</title>
+      <link>https://t.me/webcontrol_app/61</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/61</guid>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Т.к. есть предположение что подобные ситуации возникают при взаимодействии системы с eMMC памятью (в моменты, когда система пытается массово записать что-то на диск), то было принято решение создать рабочий образ на новой версии ядра, для понимания насколько это изменит ситуацию с зависаниями. Если Вы сталкивались с зависаниями, рекомендую поставить этот образ, чтобы понять изменит ли это ситуацию.&lt;br&gt;
+&lt;br&gt;
+Выше в сообщении был образ системы для тестирования на обновленной ОС Debian 12 (ядро  6.1.0-13). Для справки: все предыдущие образы базировались на Debian 11 (последняя версия Webcontrol на ядре 5.10.0-25).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/61"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Уважаемые пользователи программы!</title>
+      <link>https://t.me/webcontrol_app/60</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/60</guid>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Уважаемые пользователи программы!&lt;br&gt;
+Те, кто уже пользуется ей продолжительное время. &lt;br&gt;
+&lt;br&gt;
+Мне необходима обратная связь по надежности работы программы.&lt;br&gt;
+&lt;br&gt;
+В особенности, мне важно знать сколько работает у вас программа без перезагрузки и сталкивались ли вы с “зависаниями” – ситуациями, когда включенный мини-компьютер становится недоступен по сети, и начинает работать нормально только после перезагрузки.&lt;br&gt;
+&lt;br&gt;
+Некоторые пользователи сообщили мне о случайно возникающих подобных “зависаниях” мини-компьютера во время работы. Эти зависания носят несистемный характер и пока не удалось достоверно выяснить их причину. Вся техническая информация будет размещена в комментарии к этому сообщению. Если вы являетесь специалистом в области низкоуровневого взаимодействия ОС Linux с железом, можете в комментарии оставить свое мнение и предложения по устранению подобных ситуаций.&lt;br&gt;
+&lt;br&gt;
+[продолжение](https://t.me/webcontrol_app/61)&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/60_readme.txt"&gt;readme.txt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/60"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Представляю очередную версию  [2023.11.15](https://t.me/webcontrol_app/13)  которая добавляет воз...</title>
+      <link>https://t.me/webcontrol_app/57</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/57</guid>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Представляю очередную версию  [2023.11.15](https://t.me/webcontrol_app/13)  которая добавляет возможность обновления программы путем загрузки файла обновления через  веб-интерфейс . НАСТОЯТЕЛЬНО рекомендую всем обновиться до этой версии, т.к. следующие обновления планирую по возможности выпускать только в виде файла-обновления кода, а не образа.  [Список изменений](https://t.me/webcontrol_app/29).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/57"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Все-таки доделал обновление кода через загрузку файла, хотя это было хлопотно. Часть кода програм...</title>
+      <link>https://t.me/webcontrol_app/55</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/55</guid>
+      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Все-таки доделал обновление кода через загрузку файла, хотя это было хлопотно. Часть кода программы и структуру служебных каталогов из-за обновления пришлось менять. В первом приближении протестировал и оно даже работает. Теперь надо тестировать более тщательно.  И потом выложить образ.&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/55_CU.png"&gt;CU.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/55"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Благодаря пользователю программы Вадиму  удалось обнаружить и устранить ошибку в отображении окон...</title>
+      <link>https://t.me/webcontrol_app/53</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/53</guid>
+      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Благодаря пользователю программы Вадиму  удалось обнаружить и устранить ошибку в отображении окончания текущего временного окна для 2 и 3 отопительной зоны и зоны приготовления ГВ. Большое Спасибо ему за это! Исправление войдет в следующую версию программы.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://stadid.github.io/webcontrol-news/images/53_export.jpg" alt="Изображение к посту"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/53"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>По обновлению ПО.</title>
+      <link>https://t.me/webcontrol_app/52</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/52</guid>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;По обновлению ПО.&lt;br&gt;
+Сейчас работаю над добавлением возможности обновлять код программы через загрузку файла в веб-интерфейсе без переустановки через образ.&lt;br&gt;
+&lt;br&gt;
+Политика обновлений будет следующая:&lt;br&gt;
+- если производятся изменения в самой ОС, то обновление выходит в виде образа.&lt;br&gt;
+- если только обновление кода, то через файл.&lt;br&gt;
+&lt;br&gt;
+Таким образом, Вы скачиваете последний образ и затем (если требуется) ставите обновление программного кода, для получения актуальной версии. Обновления кода постараюсь сделать кумулятивными, т.е. актуальное обновление кода будет содержать все обновления  вышедшие ранее. &lt;br&gt;
+&lt;br&gt;
+Надеюсь добавить механизм обновлений уже в следующую версию, хотя, на мой взгляд, для бесплатного ПО этот функционал уже несколько перебор.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/52"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Один из первых пользователей программы Константин предложил реализовать полезную функцию - отправ...</title>
+      <link>https://t.me/webcontrol_app/51</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/51</guid>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Один из первых пользователей программы Константин предложил реализовать полезную функцию - отправлять уведомления Telegram пользователям, если кто-то из них меняет через бота настройки системы.&lt;br&gt;
+&lt;br&gt;
+Эта функция мною реализована и войдет в следующую версию программы. Кому она не требуется - просто могут ее не включать (функция по умолчанию отключена).&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/51_Screenshot 2023-10-27 at 16-00-06 Webcontrol.png"&gt;Screenshot 2023-10-27 at 16-00-06 Webcontrol.png&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/51"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вышла версия 2023.10.17 позволяющая использовать  Wi-FI в разных модификациях мини-компьютера Bee...</title>
+      <link>https://t.me/webcontrol_app/49</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/49</guid>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вышла версия 2023.10.17 позволяющая использовать  Wi-FI в разных модификациях мини-компьютера Beelink T4-PRO.  Список изменений  можно посмотреть [вот тут](https://t.me/webcontrol_app/29).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/49"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Также благодаря Евгению удалось обнаружить что существует несколько разновидностей модели Beelink...</title>
+      <link>https://t.me/webcontrol_app/48</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/48</guid>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Также благодаря Евгению удалось обнаружить что существует несколько разновидностей модели Beelink T4 PRO отличающихся друг от друга используемыми WiFi модулями и версией BIOS (пока не удалось обнаружить признаки по которым их можно отличить друг от друга без просмотра списка оборудования в ОС или, возможно, версии BIOS). В другой разновидности мини-компьютера из-за ошибки в BIOS не работает WiFi под linux. Эту проблему удалось победить и, после проверок на своей тестовой машине надеюсь, в следующей версии Webcontrol WiFi будет работать в обеих разновидностях Beelink T4 -PRO. Технические подробности [тут](https://forum.bee-link.com/forum.php?mod=viewthread&amp;amp;tid=87248&amp;amp;extra=) и вот [тут](https://bugzilla.kernel.org/show_bug.cgi?id=215715).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/48"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Благодаря подписчику канала Евгению удалось исправить неточность в архиве с документацией на EBUS...</title>
+      <link>https://t.me/webcontrol_app/47</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/47</guid>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Благодаря подписчику канала Евгению удалось исправить неточность в архиве с документацией на EBUS адаптер. Исправлено обозначение выводов EBUS адаптера на печатной плате. Архив  обновлен.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/47"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Уважаемые посетители и подписчики канала!</title>
+      <link>https://t.me/webcontrol_app/45</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/45</guid>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Уважаемые посетители и подписчики канала!&lt;br&gt;
+Для добавления поддержки в программе 720 регулятора мне необходим этот регулятор. Если удастся со временем накопить с [добровольных пожертвований](https://boosty.to/webcontrol_app/about) сумму для его покупки, я займусь написанием кода для него.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/45"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Настройка BIOS компьютера Beelink T4-PRO для автоматического включения компьютера после аварийног...</title>
+      <link>https://t.me/webcontrol_app/44</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/44</guid>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Настройка BIOS компьютера Beelink T4-PRO для автоматического включения компьютера после аварийного отключения питания.&lt;br&gt;
+&lt;br&gt;
+#установка&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/44_Beelink_T4PRO_BIOS_power_restore_settings.pdf"&gt;Beelink_T4PRO_BIOS_power_restore_settings.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/44"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вышла новая версия 2023.09.28 с поддержкой подключения по  Wi-FI. Список изменений  можно посмотр...</title>
+      <link>https://t.me/webcontrol_app/42</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/42</guid>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вышла новая версия 2023.09.28 с поддержкой подключения по  Wi-FI. Список изменений  можно посмотреть [вот тут](https://t.me/webcontrol_app/29).  Также в первом сообщении в канале добавил [ссылку](https://pay.mysbertips.ru/42446581) для приема благодарностей от признательных пользователей. ))))&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/42"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>С учетом изменений в программе обновил инструкцию по созданию и подключению Telegram-бота и настр...</title>
+      <link>https://t.me/webcontrol_app/41</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/41</guid>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;С учетом изменений в программе обновил инструкцию по созданию и подключению Telegram-бота и настройкам для Telegram-пользователей. Эта инструкция доступна в самой программе и будет обновлена при выходе следующей версии ПО.&lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/41_Telegram_bot_creation_and_commands.pdf"&gt;Telegram_bot_creation_and_commands.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/41"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>https://github.com/john30/ebusd-configuration/pull/299/files</title>
+      <link>https://t.me/webcontrol_app/40</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/40</guid>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;https://github.com/john30/ebusd-configuration/pull/299/files&lt;br&gt;
+Не прошло и года (точнее 9 месяцев), как мой commit  относительно специальных режимов работы VRC700 был добавлен в конфигурационные файлы EBUSD. Учитывая опенсорсность во всей красе, очень даже неплохо.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/40"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Как мне видится развитие программы:</title>
+      <link>https://t.me/webcontrol_app/36</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/36</guid>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Как мне видится развитие программы:&lt;br&gt;
+&lt;br&gt;
+Ниже представлен список того, что хотелось бы реализовать в программе, чтобы считать свою миссию выполненной (совершенно не факт что все из этого будет реализовано):&lt;br&gt;
+&lt;br&gt;
+- поддержка регулятора  VRC720&lt;br&gt;
+- поддержка регулятора VRT380 (урезанная версия VRC720)&lt;br&gt;
+- поддержка не очень распространенных регуляторов старых серий (370, 470)&lt;br&gt;
+&lt;br&gt;
+Развитие программы видится мне в направлении поддержки новых регуляторов,  улучшения удобства использования и устранения ошибок  в уже написанном.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/36"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>В порядке эксперимента добавил возможность комментировать сообщения (увы, недоступно для сообщени...</title>
+      <link>https://t.me/webcontrol_app/35</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/35</guid>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;В порядке эксперимента добавил возможность комментировать сообщения (увы, недоступно для сообщений размещенных в канале ранее).  Посмотрим, выйдет ли из этого что-то толковое.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/35"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Управление пользователями Webcontrol</title>
+      <link>https://t.me/webcontrol_app/32</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/32</guid>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Управление пользователями Webcontrol&lt;br&gt;
+(доступ через web - интерфейс).&lt;br&gt;
+&lt;br&gt;
+Для телеграм-пользователей есть [инструкция](https://t.me/webcontrol_app/41).&lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/32"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Установка даты и времени Webcontrol. Выбор часового пояса.</title>
+      <link>https://t.me/webcontrol_app/31</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/31</guid>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Установка даты и времени Webcontrol. Выбор часового пояса.&lt;br&gt;
+(Не путать с установкой даты и времени регулятора!)&lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/31"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Список изменений в программе.</title>
+      <link>https://t.me/webcontrol_app/29</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/29</guid>
+      <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Список изменений в программе.&lt;br&gt;
+https://disk.360.yandex.ru/d/rdZbEPWTJkDPvw/changelog.txt&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/29_url.txt"&gt;url.txt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/29"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Подключение мини-компьютера и Ebus адаптера вместо интернет-модуля Vaillant</title>
+      <link>https://t.me/webcontrol_app/27</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/27</guid>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Подключение мини-компьютера и Ebus адаптера вместо интернет-модуля Vaillant&lt;br&gt;
+&lt;br&gt;
+#установка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/27"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Краткий путеводитель по программе: страницы интерфейса и пункты меню (одна из первых версий).</title>
+      <link>https://t.me/webcontrol_app/25</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/25</guid>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Краткий путеводитель по программе: страницы интерфейса и пункты меню (одна из первых версий).&lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/25"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Проведение диагностики в случае, если оборудование не найдено.</title>
+      <link>https://t.me/webcontrol_app/23</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/23</guid>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Проведение диагностики в случае, если оборудование не найдено. &lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/23"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Первые шаги по настройке программы (краткое руководство)</title>
+      <link>https://t.me/webcontrol_app/21</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/21</guid>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Первые шаги по настройке программы (краткое руководство)  &lt;br&gt;
+&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/21"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Простой способ определения ip адреса компьютера с установленным ПО Webcontrol</title>
+      <link>https://t.me/webcontrol_app/19</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/19</guid>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Простой способ определения ip адреса компьютера с установленным ПО Webcontrol  &lt;br&gt;
+&lt;br&gt;
+#установка&lt;br&gt;
+#настройка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/19"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Установка Webcontrol при помощи загрузочного USB накопителя на мини-компьютер Beelink T4-PRO/T5.</title>
+      <link>https://t.me/webcontrol_app/17</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/17</guid>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Установка Webcontrol при помощи загрузочного USB накопителя на мини-компьютер Beelink T4-PRO/T5.&lt;br&gt;
+&lt;br&gt;
+Мини компьютер Beelink T4-PRO/T5 можно купить, например, тут: https://aliexpress.ru/item/1005004000588273.html?sku_id=12000032601416205&amp;amp;spm=a2g2w.productlist.search_results.2.4c544aa6Iw7K1d&lt;br&gt;
+&lt;br&gt;
+#установка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/17"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Создание загрузочного USB-накопителя. Видео для ОС Windows.</title>
+      <link>https://t.me/webcontrol_app/15</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/15</guid>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Создание загрузочного USB-накопителя. Видео для ОС Windows. &lt;br&gt;
+&lt;br&gt;
+ВНИМАНИЕ! &lt;br&gt;
+Если Вы устанавливаете  Webcontrol на компьютер, bios которого поддерживает UEFI ( Beelink T4-PRO/T5), то второй шаг описанный в видео (запуск makeboot.bat) необязателен! &lt;br&gt;
+&lt;br&gt;
+При установке на Beelink T4-PRO/T5 убедитесь, что в настройках BIOS на закладке [Boot] значение параметра [Boot mode select] установлено в &amp;quot;UEFI&amp;quot;.&lt;br&gt;
+&lt;br&gt;
+#установка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/15"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Архив с содержимым установочного USB-накопителя программы Webcontrol</title>
+      <link>https://t.me/webcontrol_app/13</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/13</guid>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Архив с содержимым установочного USB-накопителя программы Webcontrol&lt;br&gt;
+&lt;br&gt;
+Версия ПО: 2025.02.01  ([список изменений](https://disk.360.yandex.ru/d/rdZbEPWTJkDPvw/changelog.txt))&lt;br&gt;
+[Обновление до актуальной версии](https://disk.360.yandex.ru/d/rdZbEPWTJkDPvw).&lt;br&gt;
+&lt;br&gt;
+Размер файла: 1 045 242 756 байт&lt;br&gt;
+Контрольная сумма SHA1:  dab598cc1652f36fc3c06e92052c78af578517f2&lt;br&gt;
+&lt;br&gt;
+*** ДЛЯ УСТАНОВКИ ТРЕБУЕТСЯ USB-НАКОПИТЕЛЬ ОБЪЕМОМ БОЛЕЕ 1Гб ***&lt;br&gt;
+&lt;br&gt;
+Поддерживаются системы ГДЕ УСТАНОВЛЕНЫ СЛЕДУЮЩИЕ РЕГУЛЯТОРЫ: &lt;br&gt;
+&lt;br&gt;
+VRC700&lt;br&gt;
+VRC700/2&lt;br&gt;
+VRC700/4&lt;br&gt;
+VRC700/5&lt;br&gt;
+VRC700/6 &lt;br&gt;
+VRC720&lt;br&gt;
+VRC720/2&lt;br&gt;
+VRC720/3&lt;br&gt;
+&lt;br&gt;
+Остальные модели регуляторов не поддерживаются!&lt;br&gt;
+&lt;br&gt;
+Конфигурация системы, тип теплогенератора и наличие каскада / дополнительных модулей (VR70, VR71) не имеет значения т.к. все управление происходит через регулятор.&lt;br&gt;
+&lt;br&gt;
+*** АВТОМАТИЧЕСКАЯ УСТАНОВКА ПРОГРАММЫ ПРЕДНАЗНАЧЕНА ДЛЯ МИНИ-КОМПЬЮТЕРА Beelink T4-PRO/T5 ***&lt;br&gt;
+&lt;br&gt;
+ВЕБ-ИНТЕРФЕЙС ПРОГРАММЫ НЕ ПРЕДНАЗНАЧЕН ДЛЯ ПРЯМОГО ДОСТУПА ИЗ ИНТЕРНЕТА!!!&lt;br&gt;
+&lt;br&gt;
+Только из локальной сети или через VPN!&lt;br&gt;
+&lt;br&gt;
+[Инструкции по установке и настройке](https://t.me/webcontrol_app/152)&lt;br&gt;
+[Документация на e-bus адаптер](https://t.me/webcontrol_app/9)  или [купить готовый адаптер](https://t.me/webcontrol_app/81)&lt;br&gt;
+&lt;br&gt;
+[Купить готовый комплект](https://t.me/webcontrol_app/204)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/13"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Документ для технически подготовленных товарищей. Проливает свет на некоторые аспекты разработки ...</title>
+      <link>https://t.me/webcontrol_app/11</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/11</guid>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Документ для технически подготовленных товарищей. Проливает свет на некоторые аспекты разработки ПО Webcontrol. Обычному пользователю не интересен совсем, ну разве что картинки посмотреть. &lt;br&gt;
+&lt;br&gt;
+#документация&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/11_Технические_комментарии_по_программе_Webcontrol.pdf"&gt;Технические_комментарии_по_программе_Webcontrol.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/11"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Короткое видео по соединению плат ebus адаптера.</title>
+      <link>https://t.me/webcontrol_app/10</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/10</guid>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Короткое видео по соединению плат ebus адаптера.&lt;br&gt;
+&lt;br&gt;
+#установка&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/10"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Архив с полной документацией для изготовления EBUS адаптера (принципиальная схема, печатная плата...</title>
+      <link>https://t.me/webcontrol_app/9</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/9</guid>
+      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Архив с полной документацией для изготовления EBUS адаптера (принципиальная схема, печатная плата, компоненты, корпус). Подробности в файле readme.txt внутри архива. &lt;br&gt;
+&lt;br&gt;
+В этом же файле представлена информация о том, где можно заказать изготовление адаптера.&lt;br&gt;
+&lt;br&gt;
+#документация&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/9_Webcontrol_EBUS_adapter.zip"&gt;Webcontrol_EBUS_adapter.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/9"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Вводное видео по программе. Извиняюсь за некоторую сумбурность, но думаю для получения первого вп...</title>
+      <link>https://t.me/webcontrol_app/8</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/8</guid>
+      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Вводное видео по программе. Извиняюсь за некоторую сумбурность, но думаю для получения первого впечатления достаточно.&lt;br&gt;
+&lt;br&gt;
+Кому будет полезна программа:&lt;br&gt;
+&lt;br&gt;
+если у Вас уже есть регулятор от Vaillant (поддерживается VRC700 и VRC720 любого поколения), и Вы хотите удаленно управлять своей системой отопления (и получать уведомления об ошибках) без какого либо стороннего &amp;quot;облака&amp;quot; - то это решение для Вас.&lt;br&gt;
+&lt;br&gt;
+Хоть решение и максимально упрощено, требуется определенный уровень знаний, для установки и настройки ПО и &amp;quot;железной&amp;quot; части, поэтому если Вы не понимаете о чем идет речь - попросите знакомых / друзей / коллег, которые обладают нужными знаниями Вам помочь.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/8"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Канал посвящен замене системы удаленного управления Vaillant, после того как оригинальное приложе...</title>
+      <link>https://t.me/webcontrol_app/6</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/6</guid>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Канал посвящен замене системы удаленного управления Vaillant, после того как оригинальное приложение от производителя перестало работать.&lt;br&gt;
+&lt;br&gt;
+ЧТО УМЕЕТ ПРОГРАММА?&lt;br&gt;
+ ([описание программы в виде pdf файла](https://t.me/webcontrol_app/121))&lt;br&gt;
+&lt;br&gt;
+- Полностью независимое решение (Вы сами себе &amp;quot;облако&amp;quot;)&lt;br&gt;
+- Понятный интерфейс на Русском языке с пояснениями производимых настроек и изменяемых режимов.&lt;br&gt;
+- Полный аналог родного приложения (в части отопления*):  поддерживается максимальное количество отопительных зон и отопительных контуров для выбранной модели регулятора  &lt;br&gt;
+ настройка временных окон, желаемых температур и специальных режимов работы регулятора.&lt;br&gt;
+- Не зависит от конфигурации системы, типа теплогенератора и наличия дополнительных модулей (VR70,VR71 и т.д.) - все будет работать т.к. управление происходит через регулятор.&lt;br&gt;
+- Расшифровка кодов состояния и кодов ошибок для поддерживаемых семейств теплогенераторов (turboTEC, atmoTEC, eloBLOCK, ecoTEC, ecoVIT, ecoCRAFT)&lt;br&gt;
+- Поддержка каскада теплогенераторов (для теплогенераторов в каскаде читаются следующие параметры: код состояния, температура подающей и обратной линии, код ошибки. Отправка уведомлений в случае аварии теплогенераторов в каскаде).&lt;br&gt;
+- Отображение выбранных пользователем параметров системы (до 10 параметров)&lt;br&gt;
+- Отправка уведомлений об ошибках, отчетов о текущем состоянии и удаленное управление системой через Telegram-бота.&lt;br&gt;
+- Встроенный L2TP/IPsec VPN клиент для организации удаленного доступа к web-интерфейсу программы.&lt;br&gt;
+- Возможность напрямую изменять доступные настройки регулятора и теплогенератора (экспериментальная функция для опытных пользователей).&lt;br&gt;
+- Автоматическое поддержание точного времени и даты регулятора.&lt;br&gt;
+- Поддерживается как подключение по проводу (Ethernet) так и WiFi-соединение&lt;br&gt;
+- Реализация в виде веб-интерфейса позволяет осуществлять удаленный доступ с любого устройства (телефон, планшет, ПК).&lt;br&gt;
+- Возможность обновления программы через интернет.&lt;br&gt;
+&lt;br&gt;
+* управление охлаждением и вентиляцией поддерживается только в режиме прямого изменения параметров&lt;br&gt;
+&lt;br&gt;
+Канал будет использоваться в виде своеобразного веб-сайта, где будут выкладываться как сама программа, так и различные инструкции по ее установке и настройке.&lt;br&gt;
+&lt;br&gt;
+УВАЖАЕМЫЕ ПОСЕТИТЕЛИ КАНАЛА!&lt;br&gt;
+&lt;br&gt;
+Если Вы пользуетесь программой и она Вам полезна, или Вы желаете поблагодарить автора за сделанную работу и мотивировать его к дальнейшему развитию программы, то вот [ссылка](https://pay.mysbertips.ru/42446581). Также это можно сделать на [странице программы в Boosty](https://boosty.to/webcontrol_app/about).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/6"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
