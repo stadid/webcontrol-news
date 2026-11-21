@@ -6,7 +6,7 @@ from collections import defaultdict
 
 TOKEN = os.environ["TG_BOT_TOKEN"]
 CHANNEL_USERNAME = "webcontrol_app"
-MAIN_PROJECT_URL = "https://github.io"
+MAIN_PROJECT_URL = "https://stadid.github.io/webcontrol/"
 API_URL = f"https://api.telegram.org/bot{TOKEN}"
 FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}"
 IMG_DIR = "images"
