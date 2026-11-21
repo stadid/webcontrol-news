@@ -1,7 +1,7 @@
 import os
 import json
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 
 TOKEN = os.environ["TG_BOT_TOKEN"]
@@ -251,10 +251,14 @@ for year in sorted_years:
         f.write("\n".join(year_lines))
 
 archive_nav = build_archive_nav()
+updated_at = datetime.now(timezone(timedelta(hours=3))).strftime("%d.%m.%y %H:%M")
+
 main_lines = [
     f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub]({REPO_URL}) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME})",
     "",
     archive_nav,
+    "",
+    f"*Обновлено: {updated_at} (МСК)*",
     "",
     "---",
     ""
