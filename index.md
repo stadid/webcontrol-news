@@ -1,8 +1,8 @@
-[Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol/) | [Канал в Telegram](https://t.me/webcontrol_app) | [RSS](./feed.xml
+[Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol/) | [Канал в Telegram](https://t.me/webcontrol_app) | [RSS](./feed.xml)
 
 **Архив по годам:** [2026](./2026.html) (41) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
-*Обновлено: 21.11.26 22:06 (МСК)*
+*Обновлено: 21.11.26 22:12 (МСК)*
 
 ---
 
