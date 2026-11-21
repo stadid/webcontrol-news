@@ -174,7 +174,6 @@ for year in sorted(by_year.keys(), reverse=True):
 
 archive_nav = "**Архив по годам:** " + " • ".join(archive_links) if archive_links else ""
 main_lines = [
-    "# Новости и обновления Webcontrol",
     "",
     f"[Главная страница Webcontrol]({MAIN_PROJECT_URL}) | [Репозиторий GitHub](https://github.com/stadid/webcontrol) | [Канал в Telegram](https://t.me/{CHANNEL_USERNAME})",
     "",
