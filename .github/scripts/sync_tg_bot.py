@@ -210,7 +210,7 @@ def render_post(p):
             ""
         ])
     lines.extend([
-        f"[Открыть в Telegram](https://t.me{CHANNEL_USERNAME}/{p['message_id']})",
+        f"[Открыть в Telegram](https://t.me/{CHANNEL_USERNAME}/{p['message_id']})",
         "",
         "---",
         ""
