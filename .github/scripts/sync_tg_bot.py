@@ -287,7 +287,7 @@ def generate_rss(posts_list, output_file=RSS_FILE):
       "rss",
       {
           "version": "2.0",
-          "xmlns:atom": "http://w3.org",
+          "xmlns:atom": "http://www.w3.org/2005/Atom",
       },
   )
   channel = ET.SubElement(rss, "channel")
@@ -350,8 +350,7 @@ def generate_rss(posts_list, output_file=RSS_FILE):
     for img in p.get("images", []):
       img_url = f"{NEWS_SITE_URL}{img}"
       html_parts.append(
-          f'<p><img src="{img_url}" alt="Изображение к посту"'
-          ' style="max-width:100%; height:auto;"></p>'
+          f'<p><img src="{img_url}" alt="Изображение к посту"></p>'
       )
 
     for doc in p.get("files", []):
