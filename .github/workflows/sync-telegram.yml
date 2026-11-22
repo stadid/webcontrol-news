@@ -2,7 +2,7 @@ name: Sync Telegram Channel with Images
 
 on:
   schedule:
-    - cron: '38 */2 * * *' # автоматический запуск каждые 2 часа
+    - cron: '38 */4 * * *' # автоматический запуск каждые 2 часа
   workflow_dispatch:       # ручной запуск кнопкой во вкладке Actions
 
 permissions:
