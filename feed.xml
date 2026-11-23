@@ -5,7 +5,7 @@
     <link>https://stadid.github.io/webcontrol-news/</link>
     <description>Новости и анонсы Webcontrol из Telegram-канала @webcontrol_app</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 23 Nov 2026 01:07:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 15:18:29 +0000</lastBuildDate>
     <atom:link href="https://stadid.github.io/webcontrol-news/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Автоматическая трансляция сообщений канала из Телеграм на Github pages.</title>
