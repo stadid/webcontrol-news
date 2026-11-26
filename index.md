@@ -1,8 +1,30 @@
 [Главная страница Webcontrol](https://stadid.github.io/webcontrol/) | [Репозиторий GitHub](https://github.com/stadid/webcontrol/) | [Канал в Telegram](https://t.me/webcontrol_app) | [RSS](./feed.xml) | [🌐 Translate (Google)](https://stadid-github-io.translate.goog/webcontrol-news/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en)
 
-**Архив по годам:** [2026](./2026.html) (41) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
+**Архив по годам:** [2026](./2026.html) (42) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
-*Обновлено: 26.11.26 17:23 (МСК)*
+*Обновлено: 26.11.26 18:06 (МСК)*
+
+---
+
+### 2026-11-26
+
+Webcontrol как явление
+
+Друзья! Никогда бы не подумал, что буду это писать, но, как бы это сказать: автор докатился))))
+
+Из праздного любопытства, я взял всю историю новостных сообщений Telegram-канала Webcontrol и скормил нейросети от Яндекса и попросил сделать краткий анализ и обзор проекта. А потом вставил полученный текст в нейросеть от Гугл и попросил сделать свои выводы о тексте.
+
+Как человеку, который все эти годы тянул проект и видел все изнутри - смотреть как идет анализ от ИИ мне было и весело, и увлекательно.
+
+Если что - получился не технический обзор - а скорее нейрослопский слегка галлюциногенный эссе-панегирик всему проекту Webcontrol. 
+
+И что самое страшное - со многими выводами ИИ я согласен.
+
+А уж читать, или покрутить пальцем у виска - ваш выбор.
+
+📎 **Вложение:** [Webcontrol_как_явление.pdf](./files/289_Webcontrol_как_явление.pdf)
+
+[Открыть в Telegram](https://t.me/webcontrol_app/289)
 
 ---
 
@@ -251,23 +273,7 @@ address 36: slave #8, ebusd
 
 ---
 
-### 2026-05-30
-
-О возможности совместного использования Home Assistant и Webcontrol
-
-Данный вопрос очень специфичный и вряд ли будет интересен большинству, но информация интересная, поэтому решил поделится.
-
-Предыстория. 
-
-У одного из первых пользователей Webcontrol (обладателя одной из ранних версий) была необходимость дополнительной автоматизации его системы отопления через уже существующий у него Home Assistant (HA). Поскольку первые версии Webcontrol шли без защиты кода и окружения от изменения, то пользователь установил версию EBUSD с поддержкой MQTT (версия EBUSD, входящая в состав Webcontrol MQTT не поддерживает). После чего благополучно долгое время эксплуатировал эту связку без каких-либо проблем. (Для справки: HA размещался на отдельном компьютере, не на мини-ПК с Webcontrol).
-
-<img src="./images/268_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;"><img src="./images/269_export.jpg" alt="Изображение к посту" onclick="openTgLightbox(this.src)" title="Нажмите для увеличения" style="max-height: 220px; max-width: 100%; width: auto; height: auto; border-radius: 6px; margin: 0 8px 8px 0; border: 1px solid #d0d7de; cursor: zoom-in;">
-
-[Открыть в Telegram](https://t.me/webcontrol_app/268)
-
----
-
-**Архив по годам:** [2026](./2026.html) (41) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
+**Архив по годам:** [2026](./2026.html) (42) • [2025](./2025.html) (24) • [2024](./2024.html) (85) • [2023](./2023.html) (49)
 
 
 <div id="tg-lightbox" onclick="closeTgLightbox()" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.85); align-items:center; justify-content:center; cursor:zoom-out; padding:20px; box-sizing:border-box;">

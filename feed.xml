@@ -5,8 +5,29 @@
     <link>https://stadid.github.io/webcontrol-news/</link>
     <description>Новости и анонсы Webcontrol из Telegram-канала @webcontrol_app</description>
     <language>ru</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:23:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 15:06:05 +0000</lastBuildDate>
     <atom:link href="https://stadid.github.io/webcontrol-news/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webcontrol как явление</title>
+      <link>https://t.me/webcontrol_app/289</link>
+      <guid isPermaLink="true">https://t.me/webcontrol_app/289</guid>
+      <pubDate>Thu, 26 Nov 2026 10:14:42 +0000</pubDate>
+      <description>&lt;p&gt;Webcontrol как явление&lt;br&gt;
+&lt;br&gt;
+Друзья! Никогда бы не подумал, что буду это писать, но, как бы это сказать: автор докатился))))&lt;br&gt;
+&lt;br&gt;
+Из праздного любопытства, я взял всю историю новостных сообщений Telegram-канала Webcontrol и скормил нейросети от Яндекса и попросил сделать краткий анализ и обзор проекта. А потом вставил полученный текст в нейросеть от Гугл и попросил сделать свои выводы о тексте.&lt;br&gt;
+&lt;br&gt;
+Как человеку, который все эти годы тянул проект и видел все изнутри - смотреть как идет анализ от ИИ мне было и весело, и увлекательно.&lt;br&gt;
+&lt;br&gt;
+Если что - получился не технический обзор - а скорее нейрослопский слегка галлюциногенный эссе-панегирик всему проекту Webcontrol. &lt;br&gt;
+&lt;br&gt;
+И что самое страшное - со многими выводами ИИ я согласен.&lt;br&gt;
+&lt;br&gt;
+А уж читать, или покрутить пальцем у виска - ваш выбор.&lt;/p&gt;
+&lt;p&gt;📎 Вложение: &lt;a href="https://stadid.github.io/webcontrol-news/files/289_Webcontrol_как_явление.pdf"&gt;Webcontrol_как_явление.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://t.me/webcontrol_app/289"&gt;Открыть в Telegram&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Автоматическая трансляция сообщений канала из Телеграм на Github pages.</title>
       <link>https://t.me/webcontrol_app/288</link>
