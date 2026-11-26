@@ -40,7 +40,8 @@ media_groups = {
 offset = max([int(p.get("update_id", 0)) for p in posts.values()], default=0) + 1
 
 req = urllib.request.urlopen(
-    f'{API_URL}/getUpdates?offset={offset}&allowed_updates=["channel_post","edited_channel_post"]'
+    f'{API_URL}/getUpdates?offset={offset}&timeout=15&allowed_updates=["channel_post","edited_channel_post"]',
+    timeout=25
 )
 updates = json.loads(req.read().decode("utf-8")).get("result", [])
 
