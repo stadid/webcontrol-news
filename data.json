@@ -2802,5 +2802,16 @@
         "path": "files/289_Webcontrol_как_явление.pdf"
       }
     ]
+  },
+  "290": {
+    "update_id": 34429332,
+    "message_id": 290,
+    "media_group_id": null,
+    "date": "2026-11-27",
+    "timestamp": 1795778438,
+    "text": "На reddit в разделе r/selfhosted вышел мой пост о Webcontrol.\n\nhttps://www.reddit.com/r/selfhosted/s/KjbmKajUk3\n\nКто читает по английски, и кому интересно - можете заглянуть.",
+    "captions": {},
+    "images": [],
+    "files": []
   }
 }
